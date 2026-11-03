@@ -63,26 +63,31 @@ def live_status() -> pd.DataFrame:
     return df
 
 
-@st.cache_resource(show_spinner="Training hotspot forecaster on the latest data ...")
+@st.cache_resource(show_spinner="Preparing hotspot forecaster ...")
 def forecaster(data_signature: str) -> forecasting.ForecastModels:
-    """Load the saved model if it matches the current data, otherwise retrain (~5 s)."""
-    h = hourly()
+    """Use the bundled pre-trained model if it matches the current data; otherwise retrain."""
     try:
         m = forecasting.load_models()
-        if m.trained_on.get("to") == str(h["hour_start"].max()) and m.trained_on.get("rows"):
+        if m.trained_on.get("signature") == data_signature:
             return m
     except Exception:
         pass
-    return forecasting.train_final(h)
+    return forecasting.train_final(hourly(), path=None)
 
 
 def data_signature() -> str:
-    h = hourly()
-    return f"{len(h)}-{h['hour_start'].max()}"
+    return forecasting.data_signature(hourly())
 
 
 @st.cache_data(show_spinner="Running chronological backtest ...")
 def evaluation(data_signature: str) -> dict:
+    """Bundled backtest results if they match the current data; otherwise recompute."""
+    try:
+        ev = forecasting.load_evaluation()
+        if ev.get("signature") == data_signature:
+            return ev
+    except Exception:
+        pass
     return forecasting.evaluate(hourly())
 
 

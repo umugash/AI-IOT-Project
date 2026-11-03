@@ -166,7 +166,7 @@ class SoundClassifier:
     report: dict
 
     def predict_proba_features(self, feats: np.ndarray) -> np.ndarray:
-        p = self.booster.predict(np.atleast_2d(feats))
+        p = self.booster.predict(np.atleast_2d(feats), num_threads=1)
         return np.atleast_2d(p)
 
     def predict_proba(self, y: np.ndarray, sr: int = SR) -> pd.Series:

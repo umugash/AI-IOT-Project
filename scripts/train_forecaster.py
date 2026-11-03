@@ -21,8 +21,9 @@ def main() -> None:
     print("\n80% range coverage:", ev["interval_coverage_80"].set_index("horizon_h")["coverage"].round(2).to_dict())
     for k in ["regression", "classification", "interval_coverage_80", "per_station", "feature_importance"]:
         ev[k].to_csv(OUTPUTS_DIR / f"forecast_{k}.csv", index=False)
+    forecasting.save_evaluation(ev)
     models = forecasting.train_final(hourly)
-    print(f"\nFinal model trained on {models.trained_on['rows']:,} rows -> {forecasting.MODEL_PATH}")
+    print(f"\nFinal model trained on {models.trained_on['rows']:,} rows -> {forecasting.MODEL_DIR}")
     (OUTPUTS_DIR / "forecast_summary.json").write_text(json.dumps(
         {"n_train": ev["n_train"], "n_test": ev["n_test"], **models.trained_on}, indent=1))
 

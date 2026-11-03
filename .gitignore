@@ -6,7 +6,6 @@ __pycache__/
 data/noisescope.db
 data/external/
 outputs/
-models/hotspot_forecaster.joblib
 data/cpcb/live_snapshots/raw_xml/
 # local download packages
 NoiseScope-rework.zip

@@ -13,14 +13,14 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from pathlib import Path
 
-import joblib
+import json
+
 import lightgbm as lgb
 import numpy as np
 import pandas as pd
 from sklearn.metrics import (brier_score_loss, f1_score, mean_absolute_error,
                              roc_auc_score)
 
-from .acoustics import leq
 from .analytics import HOTSPOT_MARGIN_DB
 from .config import MODELS_DIR, STATIONS, ZONE_LIMITS, limit_for
 
@@ -38,10 +38,26 @@ ZONE_CODE = {z: i for i, z in enumerate(ZONE_LIMITS)}
 FEATURES = ["horizon", "lag0", "d_lag1", "d_lag2", "d_mean3", "d_mean24", "slope3",
             "d_yday", "d_profile", "profile_std", "d_limit",
             "target_hour", "target_night", "zone_code"]
-MODEL_PATH = MODELS_DIR / "hotspot_forecaster.joblib"
+MODEL_DIR = MODELS_DIR / "forecaster"
+EVAL_DIR = MODEL_DIR / "evaluation"
+_BOOSTERS = ("point", "q_lo", "q_hi", "hotspot")
 
+# n_jobs is capped: in shared cloud containers OpenMP can see the host's cores and
+# oversubscribe the few CPUs actually available, which makes training crawl.
 _LGB_PARAMS = dict(n_estimators=300, learning_rate=0.03, num_leaves=15, min_child_samples=100,
-                   subsample=0.8, subsample_freq=1, colsample_bytree=0.8, verbose=-1, random_state=7)
+                   subsample=0.8, subsample_freq=1, colsample_bytree=0.8, verbose=-1, random_state=7,
+                   n_jobs=2)
+
+
+def data_signature(hourly: pd.DataFrame) -> str:
+    """Identifies the data a model was trained on (row count + latest hour)."""
+    return f"{len(hourly)}|{hourly['hour_start'].max()}"
+
+
+def _rolling_leq(s: pd.Series, window: int, min_periods: int) -> pd.Series:
+    """Rolling energy average, vectorised (NaN hours are skipped)."""
+    power = np.power(10.0, s / 10.0)
+    return 10.0 * np.log10(power.rolling(window, min_periods=min_periods).mean())
 
 
 def _regular_series(hourly: pd.DataFrame, sid: int) -> pd.Series:
@@ -64,8 +80,8 @@ def build_features(series: pd.Series, sid: int, profile: pd.DataFrame,
     s = series
     zone = STATIONS[sid].zone
     lagk = {k: s.shift(k) for k in range(3)}
-    mean3 = s.rolling(3, min_periods=2).apply(leq, raw=True)
-    mean24 = s.rolling(24, min_periods=12).apply(leq, raw=True)
+    mean3 = _rolling_leq(s, 3, 2)
+    mean24 = _rolling_leq(s, 24, 12)
     base = pd.DataFrame({"lag0": lagk[0], "lag1": lagk[1], "lag2": lagk[2],
                          "mean3": mean3, "mean24": mean24, "slope3": (s - s.shift(2)) / 2})
     if issue_times is None:
@@ -113,22 +129,23 @@ def _split_station(hourly: pd.DataFrame, sid: int) -> pd.Timestamp:
 
 @dataclass
 class ForecastModels:
-    point: lgb.LGBMRegressor
-    q10: lgb.LGBMRegressor
-    q90: lgb.LGBMRegressor
-    hotspot: lgb.LGBMClassifier
+    """Four LightGBM boosters: change-from-now point and quantile models, hotspot classifier."""
+    point: lgb.Booster
+    q_lo: lgb.Booster
+    q_hi: lgb.Booster
+    hotspot: lgb.Booster
     profiles: dict[int, pd.DataFrame]
     trained_on: dict = field(default_factory=dict)
 
     def predict(self, feats: pd.DataFrame) -> pd.DataFrame:
-        X = feats[FEATURES]
+        X = feats[FEATURES].to_numpy(dtype=float)
         out = feats[["station_id", "issue_time", "target_time", "horizon", "target_limit"]].copy()
         base = feats["lag0"].to_numpy()
         out["pred_laeq"] = base + self.point.predict(X)
-        lo, hi = base + self.q10.predict(X), base + self.q90.predict(X)
+        lo, hi = base + self.q_lo.predict(X), base + self.q_hi.predict(X)
         out["pred_lo"] = np.minimum(lo, out["pred_laeq"])
         out["pred_hi"] = np.maximum(hi, out["pred_laeq"])
-        out["p_hotspot"] = self.hotspot.predict_proba(X)[:, 1]
+        out["p_hotspot"] = self.hotspot.predict(X)  # binary booster returns P(class 1)
         out["pred_exceedance"] = out["pred_laeq"] - out["target_limit"]
         return out
 
@@ -136,10 +153,10 @@ class ForecastModels:
 def _fit(train: pd.DataFrame, profiles: dict) -> ForecastModels:
     X, y = train[FEATURES], train["target"] - train["lag0"]
     point = lgb.LGBMRegressor(objective="l1", **_LGB_PARAMS).fit(X, y)
-    q10 = lgb.LGBMRegressor(objective="quantile", alpha=INTERVAL_ALPHAS[0], **_LGB_PARAMS).fit(X, y)
-    q90 = lgb.LGBMRegressor(objective="quantile", alpha=INTERVAL_ALPHAS[1], **_LGB_PARAMS).fit(X, y)
+    q_lo = lgb.LGBMRegressor(objective="quantile", alpha=INTERVAL_ALPHAS[0], **_LGB_PARAMS).fit(X, y)
+    q_hi = lgb.LGBMRegressor(objective="quantile", alpha=INTERVAL_ALPHAS[1], **_LGB_PARAMS).fit(X, y)
     clf = lgb.LGBMClassifier(**_LGB_PARAMS).fit(X, train["target_hotspot"])
-    return ForecastModels(point, q10, q90, clf, profiles)
+    return ForecastModels(point.booster_, q_lo.booster_, q_hi.booster_, clf.booster_, profiles)
 
 
 def make_dataset(hourly: pd.DataFrame, split: bool = True):
@@ -209,30 +226,66 @@ def evaluate(hourly: pd.DataFrame) -> dict:
                                  "abs_err": (y - pred["pred_laeq"]).abs(),
                                  "abs_err_persist": (y - test["lag0"]).abs()})
                    .groupby(["station_id", "horizon"]).mean().reset_index())
-    importance = pd.Series(models.point.booster_.feature_importance("gain"), index=FEATURES)
+    importance = pd.Series(models.point.feature_importance("gain"), index=FEATURES)
     return {
         "regression": reg, "classification": cls,
         "interval_coverage_80": coverage.rename("coverage").reset_index(),
         "per_station": per_station,
         "feature_importance": (importance / importance.sum()).sort_values(ascending=False).rename("gain_share").rename_axis("feature").reset_index(),
-        "n_train": len(train), "n_test": len(test),
+        "n_train": len(train), "n_test": len(test), "signature": data_signature(hourly),
         "test_predictions": pd.concat([test[["station_id", "issue_time", "target_time", "horizon", "target"]],
                                        pred[["pred_laeq", "pred_lo", "pred_hi", "p_hotspot"]]], axis=1),
     }
 
 
-def train_final(hourly: pd.DataFrame, path: Path = MODEL_PATH) -> ForecastModels:
+_EVAL_TABLES = ["regression", "classification", "interval_coverage_80", "per_station",
+                "feature_importance", "test_predictions"]
+
+
+def save_evaluation(ev: dict, path: Path = EVAL_DIR) -> None:
+    path.mkdir(parents=True, exist_ok=True)
+    for k in _EVAL_TABLES:
+        ev[k].to_csv(path / f"{k}.csv", index=False)
+    (path / "summary.json").write_text(json.dumps(
+        {"n_train": ev["n_train"], "n_test": ev["n_test"], "signature": ev["signature"]}, indent=1))
+
+
+def load_evaluation(path: Path = EVAL_DIR) -> dict:
+    ev = json.loads((path / "summary.json").read_text())
+    for k in _EVAL_TABLES:
+        ev[k] = pd.read_csv(path / f"{k}.csv")
+    tp = ev["test_predictions"]
+    tp["issue_time"] = pd.to_datetime(tp["issue_time"])
+    tp["target_time"] = pd.to_datetime(tp["target_time"])
+    return ev
+
+
+def train_final(hourly: pd.DataFrame, path: Path | None = MODEL_DIR) -> ForecastModels:
     rows, profiles = make_dataset(hourly, split=False)
     models = _fit(rows, profiles)
     models.trained_on = {"rows": len(rows), "stations": sorted(int(s) for s in hourly["station_id"].unique()),
-                         "from": str(hourly["hour_start"].min()), "to": str(hourly["hour_start"].max())}
-    path.parent.mkdir(parents=True, exist_ok=True)
-    joblib.dump(models, path)
+                         "from": str(hourly["hour_start"].min()), "to": str(hourly["hour_start"].max()),
+                         "signature": data_signature(hourly)}
+    if path is not None:
+        save_models(models, path)
     return models
 
 
-def load_models(path: Path = MODEL_PATH) -> ForecastModels:
-    return joblib.load(path)
+def save_models(models: ForecastModels, path: Path = MODEL_DIR) -> None:
+    """LightGBM text + JSON, so the files load across library versions."""
+    path.mkdir(parents=True, exist_ok=True)
+    for name in _BOOSTERS:
+        (path / f"{name}.txt").write_text(getattr(models, name).model_to_string())
+    profiles = {str(sid): {"mean": p["mean"].tolist(), "std": p["std"].tolist()}
+                for sid, p in models.profiles.items()}
+    (path / "meta.json").write_text(json.dumps({"trained_on": models.trained_on, "profiles": profiles}))
+
+
+def load_models(path: Path = MODEL_DIR) -> ForecastModels:
+    meta = json.loads((path / "meta.json").read_text())
+    boosters = {n: lgb.Booster(model_str=(path / f"{n}.txt").read_text()) for n in _BOOSTERS}
+    profiles = {int(sid): pd.DataFrame(p, index=range(24)) for sid, p in meta["profiles"].items()}
+    return ForecastModels(**boosters, profiles=profiles, trained_on=meta["trained_on"])
 
 
 def forecast_latest(models: ForecastModels, hourly: pd.DataFrame,
