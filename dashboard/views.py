@@ -111,17 +111,23 @@ def live() -> None:
                 "on your laptop to collect a reading every 10 minutes.")
     col1, col2 = st.columns([1, 3])
     if col1.button("Poll CPCB now", type="primary"):
-        with st.spinner("Contacting cpcbnoise.com ..."):
-            try:
-                recs = cpcb.poll_live()
-                store.upsert_live_status(recs)
-                store.upsert_readings(cpcb.live_records_to_readings(recs))
-                D.refresh()
-                ok = sum(r["lins"] is not None for r in recs)
-                col2.success(f"Received {ok}/{len(recs)} stations.")
-            except Exception as exc:
-                col2.error(f"Portal not reachable from this machine ({exc.__class__.__name__}). "
-                           "It must be run from a network that can reach http://cpcbnoise.com.")
+        with st.spinner("Contacting cpcbnoise.com (about 10 s) ..."):
+            recs = cpcb.poll_live()
+        good = cpcb.good_records(recs)
+        if good:
+            store.upsert_live_status(good)
+            store.upsert_readings(cpcb.live_records_to_readings(good))
+            D.refresh()
+        msg = f"{len(good)}/{len(recs)} stations returned a reading."
+        (col2.success if good else col2.warning)(
+            msg + ("" if good else " Earlier readings are kept. The portal may refuse requests from "
+                   "cloud servers outside India; run the poller on your laptop instead."))
+        failed = [r for r in recs if r.get("status") != "ok"]
+        if failed:
+            with st.expander(f"Details for {len(failed)} station(s) without a reading"):
+                st.dataframe(pd.DataFrame([{"Station": STATIONS[r["station_id"]].label, "Result": r["status"],
+                                            "Detail": r["detail"]} for r in failed]),
+                             hide_index=True, width="stretch")
     ls = D.live_status()
     if ls.empty:
         st.info("No live data yet. Click **Poll CPCB now** or run the poller script.")

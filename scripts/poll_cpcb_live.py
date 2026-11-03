@@ -19,14 +19,18 @@ from noisescope.config import CPCB_SNAPSHOT_DIR, STATIONS
 
 def poll_once(save_raw: bool) -> None:
     records = cpcb.poll_live(save_raw_dir=CPCB_SNAPSHOT_DIR / "raw_xml" if save_raw else None)
-    store.upsert_live_status(records)
-    readings = cpcb.live_records_to_readings(records)
+    good = cpcb.good_records(records)
+    store.upsert_live_status(good)
+    readings = cpcb.live_records_to_readings(good)
     store.upsert_readings(readings)
     stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[{stamp}] polled {len(records)} stations, stored {len(readings)} readings")
+    print(f"[{stamp}] {len(good)}/{len(records)} stations OK, stored {len(readings)} readings")
     for r in records:
         name = STATIONS[r["station_id"]].label
-        print(f"   {name:<20} {r['observed_ts'] or '-':<20} LAF={r['lins']}")
+        if r.get("status") == "ok":
+            print(f"   {name:<20} {r['observed_ts'] or '-':<20} LAF={r['lins']}")
+        else:
+            print(f"   {name:<20} {r['status'].upper()}: {r['detail'][:120]}")
 
 
 def main() -> None:

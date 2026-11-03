@@ -1,13 +1,16 @@
-numpy>=2.0
-pandas>=2.2
-scikit-learn>=1.5
-lightgbm>=4.3
-librosa>=0.10.2
-soundfile>=0.12
-joblib>=1.3
-requests>=2.31
-streamlit>=1.50
-plotly>=5.24
+# Exact versions tested together (Python 3.12). Pinned so a cloud restart cannot pull a
+# different Streamlit front-end in the middle of users' sessions.
+numpy==2.5.4
+pandas==3.1.0
+scikit-learn==1.9.1
+lightgbm==4.7.0
+librosa==1.0.0
+numba==0.68.1
+soundfile==0.14.0
+joblib==1.6.0
+requests==2.34.2
+streamlit==1.66.1
+plotly==7.1.0
 pytest>=8
 # optional:
 # sounddevice   - live microphone capture for scripts/edge_node.py --mic

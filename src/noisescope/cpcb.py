@@ -143,6 +143,31 @@ def epoch_to_ist(epoch: float | str) -> datetime:
     return datetime(1970, 1, 1) + timedelta(seconds=float(epoch))
 
 
+_CANAL_TAG_RE = re.compile(r"<canal\w*\b([^>]*)>", re.IGNORECASE)
+_ATTR_RE = re.compile(r"""([\w:-]+)\s*=\s*["']([^"']*)["']""")
+
+
+def _canal_elements(text: str) -> list[dict[str, str]]:
+    """Fields of every <canal...> element. Falls back to a regex scan of attributes when
+    the response is not well-formed XML (e.g. an HTML wrapper or a bad encoding header)."""
+    text = re.sub(r"^\s*<\?xml[^>]*\?>", "", text.strip())
+    try:
+        root = ET.fromstring(text)
+    except ET.ParseError:
+        return [{k.lower(): v for k, v in _ATTR_RE.findall(m.group(1))}
+                for m in _CANAL_TAG_RE.finditer(text)]
+    out = []
+    for el in root.iter():
+        if not el.tag.lower().startswith("canal"):
+            continue
+        fields = {k.lower(): v for k, v in el.attrib.items()}
+        for child in el:
+            if child.text and child.text.strip():
+                fields[child.tag.lower()] = child.text.strip()
+        out.append(fields)
+    return out
+
+
 def parse_channels_xml(xml_text: str | bytes) -> dict[str, dict[str, Any]]:
     """Parse the portal's ``getlastchannelsdata`` XML into {channel_id: {...}}.
 
@@ -152,16 +177,9 @@ def parse_channels_xml(xml_text: str | bytes) -> dict[str, dict[str, Any]]:
     """
     if isinstance(xml_text, bytes):
         xml_text = xml_text.decode("utf-8", errors="replace")
-    root = ET.fromstring(xml_text.strip())
     channels: dict[str, dict[str, Any]] = {}
-    for el in root.iter():
-        if not el.tag.lower().startswith("canal"):
-            continue
-        fields = {k.lower(): v for k, v in el.attrib.items()}
-        for child in el:
-            if child.text and child.text.strip():
-                fields[child.tag.lower()] = child.text.strip()
-        cid = next((fields[k] for k in ("id", "canal", "numero", "num", "channel") if k in fields), None)
+    for fields in _canal_elements(xml_text):
+        cid = next((fields[k] for k in ("id", "canal", "numero", "num", "channel", "idcanal") if k in fields), None)
         if cid is None:
             continue
         val = next((fields[k] for k in ("valor", "value", "val", "dato") if k in fields), None)
@@ -229,16 +247,30 @@ def live_records_to_readings(records: list[dict[str, Any]]) -> pd.DataFrame:
     return df
 
 
-def poll_live(station_ids: list[int] | None = None, timeout: float = 10.0,
+def poll_live(station_ids: list[int] | None = None, timeout: float = 15.0,
               save_raw_dir: Path | None = None) -> list[dict[str, Any]]:
-    """Log in as the public guest user and fetch the latest channel values per station."""
+    """Log in as the public guest user and fetch the latest channel values per station.
+
+    Returns one record per station. ``status`` is 'ok', 'empty' (portal answered but no
+    channel values were found) or 'error'; ``detail`` explains non-ok results. Only 'ok'
+    records should be stored (see :func:`good_records`).
+    """
     import requests
 
     station_ids = station_ids or list(STATIONS)
     session = requests.Session()
-    resp = session.post(f"{PORTAL}/index.php", data=_LOGIN_FORM, headers=_HEADERS, timeout=timeout)
-    resp.raise_for_status()
     retrieved = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+    def failed(sid, status, detail):
+        return {"station_id": sid, "observed_ts": None, "retrieved_at": retrieved, "lins": None,
+                "lcins": None, "battery_v": None, "raw_json": None, "status": status, "detail": detail}
+
+    try:
+        resp = session.post(f"{PORTAL}/index.php", data=_LOGIN_FORM, headers=_HEADERS, timeout=timeout)
+        resp.raise_for_status()
+    except Exception as exc:
+        return [failed(sid, "error", f"login failed: {exc.__class__.__name__}: {exc}"[:300]) for sid in station_ids]
+
     records = []
     for sid in station_ids:
         url = f"{PORTAL}/index3.php?option=datos&task=getlastchannelsdata&estacion={sid}"
@@ -249,11 +281,18 @@ def poll_live(station_ids: list[int] | None = None, timeout: float = 10.0,
                 Path(save_raw_dir).mkdir(parents=True, exist_ok=True)
                 (Path(save_raw_dir) / f"station_{sid}_{int(time.time())}.xml").write_bytes(r.content)
             channels = parse_channels_xml(r.content)
-            if channels:
-                records.append(channels_to_record(sid, channels, retrieved))
+            rec = channels_to_record(sid, channels, retrieved) if channels else None
+            if rec and rec["lins"] is not None:
+                records.append({**rec, "status": "ok", "detail": ""})
+            else:
+                snippet = r.content[:200].decode("utf-8", errors="replace").replace("\n", " ")
+                records.append(failed(sid, "empty", f"HTTP {r.status_code}, {len(r.content)} bytes: {snippet}"))
         except Exception as exc:  # one failing station must not stop the poll
-            records.append({"station_id": sid, "observed_ts": None, "retrieved_at": retrieved,
-                            "lins": None, "lcins": None, "battery_v": None,
-                            "raw_json": json.dumps({"error": str(exc)})})
+            records.append(failed(sid, "error", f"{exc.__class__.__name__}: {exc}"[:300]))
         time.sleep(0.5)  # be gentle with the public portal
     return records
+
+
+def good_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Records safe to store: a failed poll must never overwrite the last good reading."""
+    return [r for r in records if r.get("status", "ok") == "ok" and r.get("lins") is not None]

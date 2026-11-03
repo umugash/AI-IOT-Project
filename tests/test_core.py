@@ -150,3 +150,16 @@ def test_edge_node_events_and_mix():
     df = pd.DataFrame(ev).assign(ts=lambda d: pd.to_datetime(d["ts"]))
     mix = edge.source_mix(df)
     assert mix["energy_share"].sum() == pytest.approx(1.0)
+
+
+def test_parse_channels_fallback_for_malformed_xml():
+    text = '<html><body><canal id="3" alias="dBA" valor="71.2" fecha="1793622600"><canal id="7" valor="80"></body>'
+    ch = cpcb.parse_channels_xml(text)
+    assert ch["3"]["value"] == 71.2 and ch["7"]["value"] == 80.0
+
+
+def test_failed_poll_records_are_not_stored():
+    recs = [{"station_id": 264, "lins": None, "status": "error", "detail": "timeout"},
+            {"station_id": 265, "lins": 60.0, "status": "ok", "detail": ""},
+            {"station_id": 266, "lins": None, "status": "empty", "detail": "no channels"}]
+    assert [r["station_id"] for r in cpcb.good_records(recs)] == [265]

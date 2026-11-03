@@ -54,6 +54,7 @@ def quality() -> pd.DataFrame:
 
 @st.cache_data(ttl=300, show_spinner=False)
 def live_status() -> pd.DataFrame:
+    ensure_database()
     df = store.load_live_status()
     if df.empty:
         return df
