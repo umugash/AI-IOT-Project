@@ -1,0 +1,20 @@
+station_id,station_name,legacy_station_code,city,zone,latitude,longitude,year_month,day_period,leq,obs_count,min_val,max_val
+264,Chennai_Eye Hospital Pudupet,CHE01,Chennai,Silence Zone,13.0703627,80.2600948,2025-09,Day,64.19,2877,55.48,76.84
+264,Chennai_Eye Hospital Pudupet,CHE01,Chennai,Silence Zone,13.0703627,80.2600948,2025-09,Night,64.81,1436,55.12,76.52
+265,Chennai_Thiyagaraya Nagar,CHE04,Chennai,Commercial Area,13.0385946,80.2335793,2025-12,Day,75.74,2976,52.08,105.74
+265,Chennai_Thiyagaraya Nagar,CHE04,Chennai,Commercial Area,13.0385946,80.2335793,2025-12,Night,60.8,1488,45.6,67.25
+266,Chennai_Perambur Paper Mill Rd.,CHE03,Chennai,Commercial Area,13.1121242,80.245022,2025-05,Day,53.37,2938,51.84,59.37
+266,Chennai_Perambur Paper Mill Rd.,CHE03,Chennai,Commercial Area,13.1121242,80.245022,2025-05,Night,53.84,1487,52.4,67.25
+267,Chennai_Guidy Mount Salai,CHE02,Chennai,Industrial Area,13.0087095,80.2203646,2026-01,Day,89.27,2975,43.19,102.32
+267,Chennai_Guidy Mount Salai,CHE02,Chennai,Industrial Area,13.0087095,80.2203646,2026-01,Night,88.91,1487,42.94,101.99
+267,Chennai_Guidy Mount Salai,CHE02,Chennai,Industrial Area,13.0087095,80.2203646,2026-02,Night,74.17,1,74.17,74.17
+268,Chennai_Ice House Triplicane,CHE05,Chennai,Residential Area,13.0604285,80.2750704,2025-05,Day,81.55,2976,63.61,97.17
+268,Chennai_Ice House Triplicane,CHE05,Chennai,Residential Area,13.0604285,80.2750704,2025-05,Night,77.09,1487,56.09,126.14
+269,Chennai_Pallikaranai,CHE06,Chennai,Commercial Area,12.9304748,80.2077692,2026-01,Day,71.31,2976,58.42,93.41
+269,Chennai_Pallikaranai,CHE06,Chennai,Commercial Area,12.9304748,80.2077692,2026-01,Night,71.4,1488,59.63,90.66
+269,Chennai_Pallikaranai,CHE06,Chennai,Commercial Area,12.9304748,80.2077692,2026-02,Night,73.02,1,73.02,73.02
+270,Chennai_Velacherry,CHE07,Chennai,Residential Area,12.9772611,80.2209183,2026-01,Day,94.58,2919,67.92,120.27
+270,Chennai_Velacherry,CHE07,Chennai,Residential Area,12.9772611,80.2209183,2026-01,Night,92.64,1476,67.56,112.08
+273,Chennai_Sowcarpet,CHE10,Chennai,Residential Area,13.0884967,80.2783092,2025-05,Day,63.94,2976,57.94,82.01
+273,Chennai_Sowcarpet,CHE10,Chennai,Residential Area,13.0884967,80.2783092,2025-05,Night,58.11,1487,49.33,71.5
+273,Chennai_Sowcarpet,CHE10,Chennai,Residential Area,13.0884967,80.2783092,2025-06,Night,57.53,1,57.53,57.53

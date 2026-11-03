@@ -1,0 +1,21 @@
+source_id,source_url,period_start,period_end,station,zone_class,day_night,reported_average_leq_dba,reported_max_leq_dba,reported_min_leq_dba,zone_limit_dba,source_annexure
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Eye Hospital Egmore,Sensitive,Day,65,77,55,50,XVIII-A
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Eye Hospital Egmore,Sensitive,Night,64,76,57,40,XVIII-B
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Guindy,Industrial,Day,66,74,63,75,XVIII-A
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Guindy,Industrial,Night,65,72,59,70,XVIII-B
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Pallikaranai,Commercial,Day,67,88,34,65,XVIII-A
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Pallikaranai,Commercial,Night,67,77,47,55,XVIII-B
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Perambur,Commercial,Day,58,72,35,65,XVIII-A
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Perambur,Commercial,Night,55,63,30,55,XVIII-B
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Sowcarpet,Commercial,Day,56,72,33,65,XVIII-A
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Sowcarpet,Commercial,Night,54,68,39,55,XVIII-B
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,T. Nagar,Sensitive,Day,71,94,56,50,XVIII-A
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,T. Nagar,Sensitive,Night,66,89,52,40,XVIII-B
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Triplicane,Residential,Day,64,96,25,55,XVIII-A
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Triplicane,Residential,Night,59,88,24,45,XVIII-B
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Velachery,Commercial,Day,69,89,41,65,XVIII-A
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Velachery,Commercial,Night,60,85,33,55,XVIII-B
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Washermanpet,Commercial,Day,69,94,35,65,XVIII-A
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Washermanpet,Commercial,Night,67,89,34,55,XVIII-B
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Annanagar,Sensitive,Day,62,109,25,50,XVIII-A
+TNPCB-AR2024,https://tnpcb.gov.in/PDF/Information/annualreports/English/AnnualRpt_Eng2024.pdf,2023-04,2024-03,Annanagar,Sensitive,Night,53,92,26,40,XVIII-B

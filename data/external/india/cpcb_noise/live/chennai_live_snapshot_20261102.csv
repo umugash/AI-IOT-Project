@@ -1,0 +1,11 @@
+source_id,station_id,station_name,city,zone,observation_timestamp_utc,retrieval_timestamp_utc,status_code,laf_ins_dba,lcf_ins_dbc,las_ins_dba,battery_voltage
+cpcb_nanmn_live,272,Chennai_Anna Nagar,Chennai,Silence,2026-11-02T12:30:00+00:00,2026-11-02T07:08:24.383496+00:00,65.0,54.8,51.2,62.0,53.0
+cpcb_nanmn_live,264,Chennai_Eye Hospital Pudupet,Chennai,Silence,2025-09-30T22:50:00+00:00,2026-11-02T07:08:24.383496+00:00,0.0,64.8,79.5,64.7,14.34
+cpcb_nanmn_live,267,Chennai_Guidy Mount Salai,Chennai,Industrial,2026-11-02T12:10:00+00:00,2026-11-02T07:08:24.383496+00:00,0.0,81.8,96.8,81.8,13.51
+cpcb_nanmn_live,268,Chennai_Ice House Triplicane,Chennai,Residential,2025-06-03T22:10:00+00:00,2026-11-02T07:08:24.383496+00:00,8.0,20.8,,,
+cpcb_nanmn_live,269,Chennai_Pallikaranai,Chennai,Commercial,2026-11-02T01:10:00+00:00,2026-11-02T07:08:24.383496+00:00,0.0,82.0,104.1,82.9,63.0
+cpcb_nanmn_live,266,Chennai_Perambur Paper Mill Rd.,Chennai,Commercial,2025-05-31T22:50:00+00:00,2026-11-02T07:08:24.383496+00:00,1.0,52.8,89.0,68.8,11.53
+cpcb_nanmn_live,273,Chennai_Sowcarpet,Chennai,Residential,2025-06-08T13:50:00+00:00,2026-11-02T07:08:24.383496+00:00,1.0,64.2,69.9,63.7,64.3
+cpcb_nanmn_live,265,Chennai_Thiyagaraya Nagar,Chennai,Commercial,2025-12-31T23:50:00+00:00,2026-11-02T07:08:24.383496+00:00,1.0,61.6,64.2,68.2,12.61
+cpcb_nanmn_live,270,Chennai_Velacherry,Chennai,Residential,2026-01-31T12:20:00+00:00,2026-11-02T07:08:24.383496+00:00,1.0,68.3,74.4,68.3,60.9
+cpcb_nanmn_live,271,Chennai_Washermanpet,Chennai,Commercial,2026-11-02T12:30:00+00:00,2026-11-02T07:08:24.383496+00:00,65.0,50.2,46.7,50.2,29.5

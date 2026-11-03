@@ -1,0 +1,977 @@
+[
+  {
+    "source_id": "cpcb_nanmn_live",
+    "station_id": 272,
+    "station_name": "Chennai_Anna Nagar",
+    "city": "Chennai",
+    "zone": "Silence",
+    "retrieval_timestamp_utc": "2026-11-02T07:08:24.383496+00:00",
+    "channels": {
+      "1": {
+        "channel_id": "1",
+        "alias": "Status",
+        "value": 65.0,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "3": {
+        "channel_id": "3",
+        "alias": "dBA",
+        "value": 54.8,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "7": {
+        "channel_id": "7",
+        "alias": "dBC",
+        "value": 51.2,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "11": {
+        "channel_id": "11",
+        "alias": "dBA",
+        "value": 62.0,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "13": {
+        "channel_id": "13",
+        "alias": "dBC",
+        "value": 53.4,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "15": {
+        "channel_id": "15",
+        "alias": "dBA",
+        "value": 65.1,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "17": {
+        "channel_id": "17",
+        "alias": "dBC",
+        "value": 59.9,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "19": {
+        "channel_id": "19",
+        "alias": "dBC",
+        "value": 55.0,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "21": {
+        "channel_id": "21",
+        "alias": "dBA",
+        "value": 53.0,
+        "observation_timestamp_utc": "2026-10-31T23:50:00+00:00",
+        "raw_epoch": "1793490600"
+      },
+      "22": {
+        "channel_id": "22",
+        "alias": "dBA",
+        "value": 50.1,
+        "observation_timestamp_utc": "2026-10-31T23:50:00+00:00",
+        "raw_epoch": "1793490600"
+      },
+      "23": {
+        "channel_id": "23",
+        "alias": "dBA",
+        "value": 48.4,
+        "observation_timestamp_utc": "2026-10-31T23:50:00+00:00",
+        "raw_epoch": "1793490600"
+      },
+      "24": {
+        "channel_id": "24",
+        "alias": "dBC",
+        "value": 64.6,
+        "observation_timestamp_utc": "2026-10-31T23:50:00+00:00",
+        "raw_epoch": "1793490600"
+      },
+      "25": {
+        "channel_id": "25",
+        "alias": "dBC",
+        "value": 62.4,
+        "observation_timestamp_utc": "2026-10-31T23:50:00+00:00",
+        "raw_epoch": "1793490600"
+      },
+      "26": {
+        "channel_id": "26",
+        "alias": "dBC",
+        "value": 61.4,
+        "observation_timestamp_utc": "2026-10-31T23:50:00+00:00",
+        "raw_epoch": "1793490600"
+      },
+      "27": {
+        "channel_id": "27",
+        "alias": "Status",
+        "value": 0.0,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "31": {
+        "channel_id": "31",
+        "alias": "V",
+        "value": 14.24,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      }
+    }
+  },
+  {
+    "source_id": "cpcb_nanmn_live",
+    "station_id": 264,
+    "station_name": "Chennai_Eye Hospital Pudupet",
+    "city": "Chennai",
+    "zone": "Silence",
+    "retrieval_timestamp_utc": "2026-11-02T07:08:24.383496+00:00",
+    "channels": {
+      "1": {
+        "channel_id": "1",
+        "alias": "Status",
+        "value": 0.0,
+        "observation_timestamp_utc": "2025-09-30T22:50:00+00:00",
+        "raw_epoch": "1759272600"
+      },
+      "3": {
+        "channel_id": "3",
+        "alias": "dBA",
+        "value": 64.8,
+        "observation_timestamp_utc": "2025-09-30T22:50:00+00:00",
+        "raw_epoch": "1759272600"
+      },
+      "7": {
+        "channel_id": "7",
+        "alias": "dBC",
+        "value": 79.5,
+        "observation_timestamp_utc": "2025-09-30T22:50:00+00:00",
+        "raw_epoch": "1759272600"
+      },
+      "11": {
+        "channel_id": "11",
+        "alias": "dBA",
+        "value": 64.7,
+        "observation_timestamp_utc": "2025-09-30T22:50:00+00:00",
+        "raw_epoch": "1759272600"
+      },
+      "13": {
+        "channel_id": "13",
+        "alias": "dBC",
+        "value": 79.2,
+        "observation_timestamp_utc": "2025-09-30T22:50:00+00:00",
+        "raw_epoch": "1759272600"
+      },
+      "15": {
+        "channel_id": "15",
+        "alias": "dBA",
+        "value": 64.8,
+        "observation_timestamp_utc": "2025-09-30T22:50:00+00:00",
+        "raw_epoch": "1759272600"
+      },
+      "17": {
+        "channel_id": "17",
+        "alias": "dBC",
+        "value": 79.1,
+        "observation_timestamp_utc": "2025-09-30T22:50:00+00:00",
+        "raw_epoch": "1759272600"
+      },
+      "19": {
+        "channel_id": "19",
+        "alias": "dBC",
+        "value": 89.9,
+        "observation_timestamp_utc": "2025-09-30T22:50:00+00:00",
+        "raw_epoch": "1759272600"
+      },
+      "21": {
+        "channel_id": "21",
+        "alias": "V",
+        "value": 14.34,
+        "observation_timestamp_utc": "2025-09-30T22:50:00+00:00",
+        "raw_epoch": "1759272600"
+      }
+    }
+  },
+  {
+    "source_id": "cpcb_nanmn_live",
+    "station_id": 267,
+    "station_name": "Chennai_Guidy Mount Salai",
+    "city": "Chennai",
+    "zone": "Industrial",
+    "retrieval_timestamp_utc": "2026-11-02T07:08:24.383496+00:00",
+    "channels": {
+      "1": {
+        "channel_id": "1",
+        "alias": "Status",
+        "value": 0.0,
+        "observation_timestamp_utc": "2026-11-02T12:10:00+00:00",
+        "raw_epoch": "1793621400"
+      },
+      "3": {
+        "channel_id": "3",
+        "alias": "dBA",
+        "value": 81.8,
+        "observation_timestamp_utc": "2026-11-02T12:10:00+00:00",
+        "raw_epoch": "1793621400"
+      },
+      "7": {
+        "channel_id": "7",
+        "alias": "dBC",
+        "value": 96.8,
+        "observation_timestamp_utc": "2026-11-02T12:10:00+00:00",
+        "raw_epoch": "1793621400"
+      },
+      "11": {
+        "channel_id": "11",
+        "alias": "dBA",
+        "value": 81.8,
+        "observation_timestamp_utc": "2026-11-02T12:10:00+00:00",
+        "raw_epoch": "1793621400"
+      },
+      "13": {
+        "channel_id": "13",
+        "alias": "dBC",
+        "value": 96.6,
+        "observation_timestamp_utc": "2026-11-02T12:10:00+00:00",
+        "raw_epoch": "1793621400"
+      },
+      "15": {
+        "channel_id": "15",
+        "alias": "dBA",
+        "value": 82.9,
+        "observation_timestamp_utc": "2026-11-02T12:10:00+00:00",
+        "raw_epoch": "1793621400"
+      },
+      "17": {
+        "channel_id": "17",
+        "alias": "dBC",
+        "value": 97.7,
+        "observation_timestamp_utc": "2026-11-02T12:10:00+00:00",
+        "raw_epoch": "1793621400"
+      },
+      "19": {
+        "channel_id": "19",
+        "alias": "dBC",
+        "value": 92.4,
+        "observation_timestamp_utc": "2026-11-02T12:10:00+00:00",
+        "raw_epoch": "1793621400"
+      },
+      "21": {
+        "channel_id": "21",
+        "alias": "V",
+        "value": 13.51,
+        "observation_timestamp_utc": "2026-11-02T12:10:00+00:00",
+        "raw_epoch": "1793621400"
+      }
+    }
+  },
+  {
+    "source_id": "cpcb_nanmn_live",
+    "station_id": 268,
+    "station_name": "Chennai_Ice House Triplicane",
+    "city": "Chennai",
+    "zone": "Residential",
+    "retrieval_timestamp_utc": "2026-11-02T07:08:24.383496+00:00",
+    "channels": {
+      "1": {
+        "channel_id": "1",
+        "alias": "Status",
+        "value": 8.0,
+        "observation_timestamp_utc": "2025-06-03T22:10:00+00:00",
+        "raw_epoch": "1748988600"
+      },
+      "3": {
+        "channel_id": "3",
+        "alias": "dBA",
+        "value": 20.8,
+        "observation_timestamp_utc": "2025-06-03T22:10:00+00:00",
+        "raw_epoch": "1748988600"
+      },
+      "6": {
+        "channel_id": "6",
+        "alias": "dBC",
+        "value": 18.8,
+        "observation_timestamp_utc": "2025-06-03T22:10:00+00:00",
+        "raw_epoch": "1748988600"
+      },
+      "10": {
+        "channel_id": "10",
+        "alias": "dBA",
+        "value": 20.8,
+        "observation_timestamp_utc": "2025-06-03T22:10:00+00:00",
+        "raw_epoch": "1748988600"
+      },
+      "12": {
+        "channel_id": "12",
+        "alias": "dBC",
+        "value": 18.8,
+        "observation_timestamp_utc": "2025-06-03T22:10:00+00:00",
+        "raw_epoch": "1748988600"
+      },
+      "14": {
+        "channel_id": "14",
+        "alias": "dBA",
+        "value": 20.8,
+        "observation_timestamp_utc": "2025-06-03T22:10:00+00:00",
+        "raw_epoch": "1748988600"
+      },
+      "16": {
+        "channel_id": "16",
+        "alias": "dBC",
+        "value": 18.8,
+        "observation_timestamp_utc": "2025-06-03T22:10:00+00:00",
+        "raw_epoch": "1748988600"
+      },
+      "18": {
+        "channel_id": "18",
+        "alias": "dBC",
+        "value": 32.2,
+        "observation_timestamp_utc": "2025-06-03T22:10:00+00:00",
+        "raw_epoch": "1748988600"
+      },
+      "20": {
+        "channel_id": "20",
+        "alias": "V",
+        "value": 12.27,
+        "observation_timestamp_utc": "2025-06-03T22:10:00+00:00",
+        "raw_epoch": "1748988600"
+      }
+    }
+  },
+  {
+    "source_id": "cpcb_nanmn_live",
+    "station_id": 269,
+    "station_name": "Chennai_Pallikaranai",
+    "city": "Chennai",
+    "zone": "Commercial",
+    "retrieval_timestamp_utc": "2026-11-02T07:08:24.383496+00:00",
+    "channels": {
+      "1": {
+        "channel_id": "1",
+        "alias": "Status",
+        "value": 0.0,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "3": {
+        "channel_id": "3",
+        "alias": "dBA",
+        "value": 82.0,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "7": {
+        "channel_id": "7",
+        "alias": "dBC",
+        "value": 104.1,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "11": {
+        "channel_id": "11",
+        "alias": "dBA",
+        "value": 82.9,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "13": {
+        "channel_id": "13",
+        "alias": "dBC",
+        "value": 104.8,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "15": {
+        "channel_id": "15",
+        "alias": "dBA",
+        "value": 82.0,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "17": {
+        "channel_id": "17",
+        "alias": "dBC",
+        "value": 101.9,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "19": {
+        "channel_id": "19",
+        "alias": "dBC",
+        "value": 93.7,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "21": {
+        "channel_id": "21",
+        "alias": "dBA",
+        "value": 63.0,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "22": {
+        "channel_id": "22",
+        "alias": "dBA",
+        "value": 61.4,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "23": {
+        "channel_id": "23",
+        "alias": "dBA",
+        "value": 60.1,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "24": {
+        "channel_id": "24",
+        "alias": "dBC",
+        "value": 79.9,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "25": {
+        "channel_id": "25",
+        "alias": "dBC",
+        "value": 78.1,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "26": {
+        "channel_id": "26",
+        "alias": "dBC",
+        "value": 76.7,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "27": {
+        "channel_id": "27",
+        "alias": "Status",
+        "value": 0.0,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      },
+      "31": {
+        "channel_id": "31",
+        "alias": "V",
+        "value": 14.29,
+        "observation_timestamp_utc": "2026-11-02T01:10:00+00:00",
+        "raw_epoch": "1793581800"
+      }
+    }
+  },
+  {
+    "source_id": "cpcb_nanmn_live",
+    "station_id": 266,
+    "station_name": "Chennai_Perambur Paper Mill Rd.",
+    "city": "Chennai",
+    "zone": "Commercial",
+    "retrieval_timestamp_utc": "2026-11-02T07:08:24.383496+00:00",
+    "channels": {
+      "1": {
+        "channel_id": "1",
+        "alias": "Status",
+        "value": 1.0,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "3": {
+        "channel_id": "3",
+        "alias": "dBA",
+        "value": 52.8,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "7": {
+        "channel_id": "7",
+        "alias": "dBC",
+        "value": 89.0,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "11": {
+        "channel_id": "11",
+        "alias": "dBA",
+        "value": 68.8,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "13": {
+        "channel_id": "13",
+        "alias": "dBC",
+        "value": 89.4,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "15": {
+        "channel_id": "15",
+        "alias": "dBA",
+        "value": 48.9,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "17": {
+        "channel_id": "17",
+        "alias": "dBC",
+        "value": 89.7,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "19": {
+        "channel_id": "19",
+        "alias": "dBC",
+        "value": 77.3,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "21": {
+        "channel_id": "21",
+        "alias": "V",
+        "value": 11.53,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      }
+    }
+  },
+  {
+    "source_id": "cpcb_nanmn_live",
+    "station_id": 273,
+    "station_name": "Chennai_Sowcarpet",
+    "city": "Chennai",
+    "zone": "Residential",
+    "retrieval_timestamp_utc": "2026-11-02T07:08:24.383496+00:00",
+    "channels": {
+      "1": {
+        "channel_id": "1",
+        "alias": "Status",
+        "value": 1.0,
+        "observation_timestamp_utc": "2025-06-08T13:50:00+00:00",
+        "raw_epoch": "1749390600"
+      },
+      "3": {
+        "channel_id": "3",
+        "alias": "dBA",
+        "value": 64.2,
+        "observation_timestamp_utc": "2025-06-08T13:50:00+00:00",
+        "raw_epoch": "1749390600"
+      },
+      "7": {
+        "channel_id": "7",
+        "alias": "dBC",
+        "value": 69.9,
+        "observation_timestamp_utc": "2025-06-08T13:50:00+00:00",
+        "raw_epoch": "1749390600"
+      },
+      "11": {
+        "channel_id": "11",
+        "alias": "dBA",
+        "value": 63.7,
+        "observation_timestamp_utc": "2025-06-08T13:50:00+00:00",
+        "raw_epoch": "1749390600"
+      },
+      "13": {
+        "channel_id": "13",
+        "alias": "dBC",
+        "value": 69.7,
+        "observation_timestamp_utc": "2025-06-08T13:50:00+00:00",
+        "raw_epoch": "1749390600"
+      },
+      "15": {
+        "channel_id": "15",
+        "alias": "dBA",
+        "value": 65.8,
+        "observation_timestamp_utc": "2025-06-08T13:50:00+00:00",
+        "raw_epoch": "1749390600"
+      },
+      "17": {
+        "channel_id": "17",
+        "alias": "dBC",
+        "value": 70.8,
+        "observation_timestamp_utc": "2025-06-08T13:50:00+00:00",
+        "raw_epoch": "1749390600"
+      },
+      "19": {
+        "channel_id": "19",
+        "alias": "dBC",
+        "value": 82.4,
+        "observation_timestamp_utc": "2025-06-08T13:50:00+00:00",
+        "raw_epoch": "1749390600"
+      },
+      "21": {
+        "channel_id": "21",
+        "alias": "dBA",
+        "value": 64.3,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "22": {
+        "channel_id": "22",
+        "alias": "dBA",
+        "value": 59.5,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "23": {
+        "channel_id": "23",
+        "alias": "dBA",
+        "value": 56.7,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "24": {
+        "channel_id": "24",
+        "alias": "dBC",
+        "value": 70.4,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "25": {
+        "channel_id": "25",
+        "alias": "dBC",
+        "value": 66.9,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "26": {
+        "channel_id": "26",
+        "alias": "dBC",
+        "value": 64.6,
+        "observation_timestamp_utc": "2025-05-31T22:50:00+00:00",
+        "raw_epoch": "1748731800"
+      },
+      "27": {
+        "channel_id": "27",
+        "alias": "Status",
+        "value": 0.0,
+        "observation_timestamp_utc": "2025-06-08T13:50:00+00:00",
+        "raw_epoch": "1749390600"
+      },
+      "31": {
+        "channel_id": "31",
+        "alias": "V",
+        "value": 14.65,
+        "observation_timestamp_utc": "2025-06-08T13:50:00+00:00",
+        "raw_epoch": "1749390600"
+      }
+    }
+  },
+  {
+    "source_id": "cpcb_nanmn_live",
+    "station_id": 265,
+    "station_name": "Chennai_Thiyagaraya Nagar",
+    "city": "Chennai",
+    "zone": "Commercial",
+    "retrieval_timestamp_utc": "2026-11-02T07:08:24.383496+00:00",
+    "channels": {
+      "1": {
+        "channel_id": "1",
+        "alias": "Status",
+        "value": 1.0,
+        "observation_timestamp_utc": "2025-12-31T23:50:00+00:00",
+        "raw_epoch": "1767225000"
+      },
+      "3": {
+        "channel_id": "3",
+        "alias": "dBA",
+        "value": 61.6,
+        "observation_timestamp_utc": "2025-12-31T23:50:00+00:00",
+        "raw_epoch": "1767225000"
+      },
+      "7": {
+        "channel_id": "7",
+        "alias": "dBC",
+        "value": 64.2,
+        "observation_timestamp_utc": "2025-12-31T23:50:00+00:00",
+        "raw_epoch": "1767225000"
+      },
+      "11": {
+        "channel_id": "11",
+        "alias": "dBA",
+        "value": 68.2,
+        "observation_timestamp_utc": "2025-12-31T23:50:00+00:00",
+        "raw_epoch": "1767225000"
+      },
+      "13": {
+        "channel_id": "13",
+        "alias": "dBC",
+        "value": 67.4,
+        "observation_timestamp_utc": "2025-12-31T23:50:00+00:00",
+        "raw_epoch": "1767225000"
+      },
+      "15": {
+        "channel_id": "15",
+        "alias": "dBA",
+        "value": 55.5,
+        "observation_timestamp_utc": "2025-12-31T23:50:00+00:00",
+        "raw_epoch": "1767225000"
+      },
+      "17": {
+        "channel_id": "17",
+        "alias": "dBC",
+        "value": 54.3,
+        "observation_timestamp_utc": "2025-12-31T23:50:00+00:00",
+        "raw_epoch": "1767225000"
+      },
+      "19": {
+        "channel_id": "19",
+        "alias": "dBC",
+        "value": 78.5,
+        "observation_timestamp_utc": "2025-12-31T23:50:00+00:00",
+        "raw_epoch": "1767225000"
+      },
+      "21": {
+        "channel_id": "21",
+        "alias": "V",
+        "value": 12.61,
+        "observation_timestamp_utc": "2025-12-31T23:50:00+00:00",
+        "raw_epoch": "1767225000"
+      }
+    }
+  },
+  {
+    "source_id": "cpcb_nanmn_live",
+    "station_id": 270,
+    "station_name": "Chennai_Velacherry",
+    "city": "Chennai",
+    "zone": "Residential",
+    "retrieval_timestamp_utc": "2026-11-02T07:08:24.383496+00:00",
+    "channels": {
+      "1": {
+        "channel_id": "1",
+        "alias": "Status",
+        "value": 1.0,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "3": {
+        "channel_id": "3",
+        "alias": "dBA",
+        "value": 68.3,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "7": {
+        "channel_id": "7",
+        "alias": "dBC",
+        "value": 74.4,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "11": {
+        "channel_id": "11",
+        "alias": "dBA",
+        "value": 68.3,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "13": {
+        "channel_id": "13",
+        "alias": "dBC",
+        "value": 64.4,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "15": {
+        "channel_id": "15",
+        "alias": "dBA",
+        "value": 59.7,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "17": {
+        "channel_id": "17",
+        "alias": "dBC",
+        "value": 64.4,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "19": {
+        "channel_id": "19",
+        "alias": "dBC",
+        "value": 61.0,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "21": {
+        "channel_id": "21",
+        "alias": "dBA",
+        "value": 60.9,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "22": {
+        "channel_id": "22",
+        "alias": "dBA",
+        "value": 60.9,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "23": {
+        "channel_id": "23",
+        "alias": "dBA",
+        "value": 60.9,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "24": {
+        "channel_id": "24",
+        "alias": "dBC",
+        "value": 58.4,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "25": {
+        "channel_id": "25",
+        "alias": "dBC",
+        "value": 58.4,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "26": {
+        "channel_id": "26",
+        "alias": "dBC",
+        "value": 58.4,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "27": {
+        "channel_id": "27",
+        "alias": "Status",
+        "value": 0.0,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      },
+      "31": {
+        "channel_id": "31",
+        "alias": "V",
+        "value": 14.36,
+        "observation_timestamp_utc": "2026-01-31T12:20:00+00:00",
+        "raw_epoch": "1769862000"
+      }
+    }
+  },
+  {
+    "source_id": "cpcb_nanmn_live",
+    "station_id": 271,
+    "station_name": "Chennai_Washermanpet",
+    "city": "Chennai",
+    "zone": "Commercial",
+    "retrieval_timestamp_utc": "2026-11-02T07:08:24.383496+00:00",
+    "channels": {
+      "1": {
+        "channel_id": "1",
+        "alias": "Status",
+        "value": 65.0,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "3": {
+        "channel_id": "3",
+        "alias": "dBA",
+        "value": 50.2,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "7": {
+        "channel_id": "7",
+        "alias": "dBC",
+        "value": 46.7,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "11": {
+        "channel_id": "11",
+        "alias": "dBA",
+        "value": 50.2,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "13": {
+        "channel_id": "13",
+        "alias": "dBC",
+        "value": 46.7,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "15": {
+        "channel_id": "15",
+        "alias": "dBA",
+        "value": 50.2,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "17": {
+        "channel_id": "17",
+        "alias": "dBC",
+        "value": 46.7,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "19": {
+        "channel_id": "19",
+        "alias": "dBC",
+        "value": 41.7,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "21": {
+        "channel_id": "21",
+        "alias": "dBA",
+        "value": 29.5,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "22": {
+        "channel_id": "22",
+        "alias": "dBA",
+        "value": 29.4,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "23": {
+        "channel_id": "23",
+        "alias": "dBA",
+        "value": 29.4,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "24": {
+        "channel_id": "24",
+        "alias": "dBC",
+        "value": 27.5,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "25": {
+        "channel_id": "25",
+        "alias": "dBC",
+        "value": 27.4,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "26": {
+        "channel_id": "26",
+        "alias": "dBC",
+        "value": 27.3,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "27": {
+        "channel_id": "27",
+        "alias": "Status",
+        "value": 0.0,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      },
+      "31": {
+        "channel_id": "31",
+        "alias": "V",
+        "value": 13.26,
+        "observation_timestamp_utc": "2026-11-02T12:30:00+00:00",
+        "raw_epoch": "1793622600"
+      }
+    }
+  }
+]

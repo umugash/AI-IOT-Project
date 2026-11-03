@@ -1,0 +1,624 @@
+station_id,station_name,legacy_station_code,zone,zone_category,date,day_period,valid_intervals,expected_intervals,completeness_pct,is_complete_period,data_sufficiency_status,leq,statutory_limit_dba,exceedance_dba,is_regulatory_exceedance,unit
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-01,Day,96,96,100.0,True,Verified Leq,65.57,50,15.57,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-01,Night,47,48,97.9,True,Verified Leq,65.04,40,25.04,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-02,Day,96,96,100.0,True,Verified Leq,63.29,50,13.29,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-02,Night,48,48,100.0,True,Verified Leq,66.28,40,26.28,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-03,Day,96,96,100.0,True,Verified Leq,66.59,50,16.59,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-03,Night,48,48,100.0,True,Verified Leq,65.17,40,25.17,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-04,Day,96,96,100.0,True,Verified Leq,63.0,50,13.0,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-04,Night,48,48,100.0,True,Verified Leq,64.47,40,24.47,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-05,Day,94,96,97.9,True,Verified Leq,64.38,50,14.38,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-05,Night,48,48,100.0,True,Verified Leq,64.81,40,24.81,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-06,Day,96,96,100.0,True,Verified Leq,62.79,50,12.79,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-06,Night,48,48,100.0,True,Verified Leq,63.57,40,23.57,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-07,Day,96,96,100.0,True,Verified Leq,64.31,50,14.31,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-07,Night,48,48,100.0,True,Verified Leq,66.33,40,26.33,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-08,Day,96,96,100.0,True,Verified Leq,64.97,50,14.97,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-08,Night,48,48,100.0,True,Verified Leq,66.93,40,26.93,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-09,Day,96,96,100.0,True,Verified Leq,66.26,50,16.26,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-09,Night,48,48,100.0,True,Verified Leq,66.58,40,26.58,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-10,Day,96,96,100.0,True,Verified Leq,65.06,50,15.06,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-10,Night,48,48,100.0,True,Verified Leq,66.54,40,26.54,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-11,Day,96,96,100.0,True,Verified Leq,64.7,50,14.7,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-11,Night,48,48,100.0,True,Verified Leq,63.88,40,23.88,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-12,Day,96,96,100.0,True,Verified Leq,63.08,50,13.08,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-12,Night,48,48,100.0,True,Verified Leq,64.17,40,24.17,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-13,Day,95,96,99.0,True,Verified Leq,65.35,50,15.35,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-13,Night,48,48,100.0,True,Verified Leq,64.6,40,24.6,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-14,Day,96,96,100.0,True,Verified Leq,64.3,50,14.3,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-14,Night,48,48,100.0,True,Verified Leq,67.21,40,27.21,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-15,Day,96,96,100.0,True,Verified Leq,61.33,50,11.33,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-15,Night,45,48,93.8,True,Verified Leq,63.01,40,23.01,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-16,Day,96,96,100.0,True,Verified Leq,61.86,50,11.86,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-16,Night,48,48,100.0,True,Verified Leq,61.82,40,21.82,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-17,Day,96,96,100.0,True,Verified Leq,64.33,50,14.33,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-17,Night,48,48,100.0,True,Verified Leq,63.89,40,23.89,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-18,Day,96,96,100.0,True,Verified Leq,61.97,50,11.97,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-18,Night,48,48,100.0,True,Verified Leq,62.85,40,22.85,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-19,Day,96,96,100.0,True,Verified Leq,65.28,50,15.28,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-19,Night,48,48,100.0,True,Verified Leq,65.73,40,25.73,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-20,Day,96,96,100.0,True,Verified Leq,68.02,50,18.02,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-20,Night,48,48,100.0,True,Verified Leq,64.79,40,24.79,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-21,Day,96,96,100.0,True,Verified Leq,58.59,50,8.59,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-21,Night,48,48,100.0,True,Verified Leq,58.75,40,18.75,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-22,Day,96,96,100.0,True,Verified Leq,60.04,50,10.04,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-22,Night,48,48,100.0,True,Verified Leq,59.66,40,19.66,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-23,Day,96,96,100.0,True,Verified Leq,59.56,50,9.56,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-23,Night,48,48,100.0,True,Verified Leq,60.98,40,20.98,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-24,Day,96,96,100.0,True,Verified Leq,63.76,50,13.76,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-24,Night,48,48,100.0,True,Verified Leq,64.44,40,24.44,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-25,Day,96,96,100.0,True,Verified Leq,63.66,50,13.66,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-25,Night,48,48,100.0,True,Verified Leq,64.7,40,24.7,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-26,Day,96,96,100.0,True,Verified Leq,64.98,50,14.98,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-26,Night,48,48,100.0,True,Verified Leq,66.07,40,26.07,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-27,Day,96,96,100.0,True,Verified Leq,61.31,50,11.31,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-27,Night,48,48,100.0,True,Verified Leq,68.19,40,28.19,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-28,Day,96,96,100.0,True,Verified Leq,60.66,50,10.66,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-28,Night,48,48,100.0,True,Verified Leq,61.33,40,21.33,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-29,Day,96,96,100.0,True,Verified Leq,65.55,50,15.55,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-29,Night,48,48,100.0,True,Verified Leq,62.04,40,22.04,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-30,Day,96,96,100.0,True,Verified Leq,65.93,50,15.93,True,dBA
+264,Egmore / Pudupet Eye Hospital,CHE01,Silence Zone,Silence,2025-09-30,Night,48,48,100.0,True,Verified Leq,65.55,40,25.55,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-01,Day,96,96,100.0,True,Verified Leq,64.13,65,-0.87,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-01,Night,48,48,100.0,True,Verified Leq,56.51,55,1.51,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-02,Day,96,96,100.0,True,Verified Leq,64.18,65,-0.82,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-02,Night,48,48,100.0,True,Verified Leq,56.26,55,1.26,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-03,Day,96,96,100.0,True,Verified Leq,64.68,65,-0.32,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-03,Night,48,48,100.0,True,Verified Leq,56.45,55,1.45,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-04,Day,96,96,100.0,True,Verified Leq,64.42,65,-0.58,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-04,Night,48,48,100.0,True,Verified Leq,57.1,55,2.1,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-05,Day,96,96,100.0,True,Verified Leq,64.58,65,-0.42,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-05,Night,48,48,100.0,True,Verified Leq,57.3,55,2.3,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-06,Day,96,96,100.0,True,Verified Leq,63.69,65,-1.31,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-06,Night,48,48,100.0,True,Verified Leq,57.33,55,2.33,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-07,Day,96,96,100.0,True,Verified Leq,62.98,65,-2.02,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-07,Night,48,48,100.0,True,Verified Leq,59.05,55,4.05,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-08,Day,96,96,100.0,True,Verified Leq,64.57,65,-0.43,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-08,Night,48,48,100.0,True,Verified Leq,59.85,55,4.85,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-09,Day,96,96,100.0,True,Verified Leq,90.43,65,25.43,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-09,Night,48,48,100.0,True,Verified Leq,60.28,55,5.28,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-10,Day,96,96,100.0,True,Verified Leq,62.37,65,-2.63,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-10,Night,48,48,100.0,True,Verified Leq,61.71,55,6.71,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-11,Day,96,96,100.0,True,Verified Leq,62.27,65,-2.73,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-11,Night,48,48,100.0,True,Verified Leq,61.61,55,6.61,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-12,Day,96,96,100.0,True,Verified Leq,62.28,65,-2.72,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-12,Night,48,48,100.0,True,Verified Leq,61.55,55,6.55,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-13,Day,96,96,100.0,True,Verified Leq,62.21,65,-2.79,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-13,Night,48,48,100.0,True,Verified Leq,61.51,55,6.51,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-14,Day,96,96,100.0,True,Verified Leq,62.22,65,-2.78,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-14,Night,48,48,100.0,True,Verified Leq,61.57,55,6.57,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-15,Day,96,96,100.0,True,Verified Leq,61.68,65,-3.32,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-15,Night,48,48,100.0,True,Verified Leq,61.65,55,6.65,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-16,Day,96,96,100.0,True,Verified Leq,62.28,65,-2.72,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-16,Night,48,48,100.0,True,Verified Leq,61.58,55,6.58,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-17,Day,96,96,100.0,True,Verified Leq,62.31,65,-2.69,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-17,Night,48,48,100.0,True,Verified Leq,61.62,55,6.62,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-18,Day,96,96,100.0,True,Verified Leq,62.28,65,-2.72,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-18,Night,48,48,100.0,True,Verified Leq,61.6,55,6.6,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-19,Day,96,96,100.0,True,Verified Leq,62.3,65,-2.7,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-19,Night,48,48,100.0,True,Verified Leq,61.58,55,6.58,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-20,Day,96,96,100.0,True,Verified Leq,62.22,65,-2.78,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-20,Night,48,48,100.0,True,Verified Leq,61.59,55,6.59,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-21,Day,96,96,100.0,True,Verified Leq,62.15,65,-2.85,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-21,Night,48,48,100.0,True,Verified Leq,61.6,55,6.6,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-22,Day,96,96,100.0,True,Verified Leq,62.18,65,-2.82,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-22,Night,48,48,100.0,True,Verified Leq,61.47,55,6.47,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-23,Day,96,96,100.0,True,Verified Leq,62.27,65,-2.73,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-23,Night,48,48,100.0,True,Verified Leq,61.41,55,6.41,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-24,Day,96,96,100.0,True,Verified Leq,61.96,65,-3.04,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-24,Night,48,48,100.0,True,Verified Leq,61.47,55,6.47,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-25,Day,96,96,100.0,True,Verified Leq,62.25,65,-2.75,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-25,Night,48,48,100.0,True,Verified Leq,61.56,55,6.56,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-26,Day,96,96,100.0,True,Verified Leq,62.27,65,-2.73,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-26,Night,48,48,100.0,True,Verified Leq,61.47,55,6.47,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-27,Day,96,96,100.0,True,Verified Leq,62.22,65,-2.78,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-27,Night,48,48,100.0,True,Verified Leq,61.51,55,6.51,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-28,Day,96,96,100.0,True,Verified Leq,62.23,65,-2.77,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-28,Night,48,48,100.0,True,Verified Leq,61.58,55,6.58,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-29,Day,96,96,100.0,True,Verified Leq,62.16,65,-2.84,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-29,Night,48,48,100.0,True,Verified Leq,61.57,55,6.57,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-30,Day,96,96,100.0,True,Verified Leq,62.28,65,-2.72,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-30,Night,48,48,100.0,True,Verified Leq,61.56,55,6.56,True,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-31,Day,96,96,100.0,True,Verified Leq,62.28,65,-2.72,False,dBA
+265,T. Nagar Commercial Area,CHE02,Commercial Area,Commercial,2025-12-31,Night,48,48,100.0,True,Verified Leq,61.53,55,6.53,True,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-01,Day,96,96,100.0,True,Verified Leq,54.43,65,-10.57,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-01,Night,47,48,97.9,True,Verified Leq,55.73,55,0.73,True,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-02,Day,96,96,100.0,True,Verified Leq,54.01,65,-10.99,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-02,Night,48,48,100.0,True,Verified Leq,54.52,55,-0.48,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-03,Day,96,96,100.0,True,Verified Leq,54.5,65,-10.5,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-03,Night,48,48,100.0,True,Verified Leq,55.2,55,0.2,True,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-04,Day,96,96,100.0,True,Verified Leq,53.75,65,-11.25,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-04,Night,48,48,100.0,True,Verified Leq,54.32,55,-0.68,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-05,Day,96,96,100.0,True,Verified Leq,53.01,65,-11.99,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-05,Night,48,48,100.0,True,Verified Leq,53.43,55,-1.57,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-06,Day,96,96,100.0,True,Verified Leq,53.17,65,-11.83,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-06,Night,48,48,100.0,True,Verified Leq,53.59,55,-1.41,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-07,Day,96,96,100.0,True,Verified Leq,53.44,65,-11.56,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-07,Night,48,48,100.0,True,Verified Leq,54.01,55,-0.99,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-08,Day,96,96,100.0,True,Verified Leq,53.25,65,-11.75,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-08,Night,48,48,100.0,True,Verified Leq,53.68,55,-1.32,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-09,Day,96,96,100.0,True,Verified Leq,52.88,65,-12.12,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-09,Night,48,48,100.0,True,Verified Leq,53.36,55,-1.64,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-10,Day,96,96,100.0,True,Verified Leq,53.12,65,-11.88,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-10,Night,48,48,100.0,True,Verified Leq,53.43,55,-1.57,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-11,Day,96,96,100.0,True,Verified Leq,53.3,65,-11.7,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-11,Night,48,48,100.0,True,Verified Leq,53.59,55,-1.41,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-12,Day,96,96,100.0,True,Verified Leq,53.24,65,-11.76,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-12,Night,48,48,100.0,True,Verified Leq,53.92,55,-1.08,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-13,Day,96,96,100.0,True,Verified Leq,53.1,65,-11.9,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-13,Night,48,48,100.0,True,Verified Leq,53.35,55,-1.65,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-14,Day,96,96,100.0,True,Verified Leq,52.62,65,-12.38,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-14,Night,48,48,100.0,True,Verified Leq,52.97,55,-2.03,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-15,Day,96,96,100.0,True,Verified Leq,52.88,65,-12.12,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-15,Night,48,48,100.0,True,Verified Leq,53.11,55,-1.89,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-16,Day,96,96,100.0,True,Verified Leq,52.93,65,-12.07,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-16,Night,48,48,100.0,True,Verified Leq,53.47,55,-1.53,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-17,Day,62,96,64.6,False,Insufficient data (62/96 intervals),,65,,,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-17,Night,48,48,100.0,True,Verified Leq,54.06,55,-0.94,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-18,Day,96,96,100.0,True,Verified Leq,53.59,65,-11.41,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-18,Night,48,48,100.0,True,Verified Leq,54.17,55,-0.83,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-19,Day,96,96,100.0,True,Verified Leq,53.2,65,-11.8,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-19,Night,48,48,100.0,True,Verified Leq,53.71,55,-1.29,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-20,Day,96,96,100.0,True,Verified Leq,53.32,65,-11.68,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-20,Night,48,48,100.0,True,Verified Leq,53.96,55,-1.04,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-21,Day,96,96,100.0,True,Verified Leq,53.56,65,-11.44,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-21,Night,48,48,100.0,True,Verified Leq,53.98,55,-1.02,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-22,Day,95,96,99.0,True,Verified Leq,54.03,65,-10.97,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-22,Night,48,48,100.0,True,Verified Leq,56.07,55,1.07,True,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-23,Day,96,96,100.0,True,Verified Leq,53.7,65,-11.3,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-23,Night,48,48,100.0,True,Verified Leq,54.02,55,-0.98,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-24,Day,96,96,100.0,True,Verified Leq,53.46,65,-11.54,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-24,Night,48,48,100.0,True,Verified Leq,53.49,55,-1.51,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-25,Day,96,96,100.0,True,Verified Leq,53.25,65,-11.75,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-25,Night,48,48,100.0,True,Verified Leq,53.33,55,-1.67,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-26,Day,93,96,96.9,True,Verified Leq,52.98,65,-12.02,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-26,Night,48,48,100.0,True,Verified Leq,53.1,55,-1.9,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-27,Day,96,96,100.0,True,Verified Leq,53.03,65,-11.97,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-27,Night,48,48,100.0,True,Verified Leq,53.18,55,-1.82,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-28,Day,96,96,100.0,True,Verified Leq,53.28,65,-11.72,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-28,Night,48,48,100.0,True,Verified Leq,53.02,55,-1.98,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-29,Day,96,96,100.0,True,Verified Leq,52.94,65,-12.06,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-29,Night,48,48,100.0,True,Verified Leq,53.08,55,-1.92,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-30,Day,96,96,100.0,True,Verified Leq,53.23,65,-11.77,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-30,Night,48,48,100.0,True,Verified Leq,53.13,55,-1.87,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-31,Day,96,96,100.0,True,Verified Leq,53.11,65,-11.89,False,dBA
+266,Perambur Paper Mill Road,CHE03,Commercial Area,Commercial,2025-05-31,Night,48,48,100.0,True,Verified Leq,52.96,55,-2.04,False,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-01,Day,96,96,100.0,True,Verified Leq,69.36,75,-5.64,False,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-01,Night,48,48,100.0,True,Verified Leq,67.13,70,-2.87,False,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-02,Day,96,96,100.0,True,Verified Leq,76.12,75,1.12,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-02,Night,48,48,100.0,True,Verified Leq,69.61,70,-0.39,False,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-03,Day,96,96,100.0,True,Verified Leq,77.07,75,2.07,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-03,Night,48,48,100.0,True,Verified Leq,74.28,70,4.28,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-04,Day,96,96,100.0,True,Verified Leq,77.14,75,2.14,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-04,Night,48,48,100.0,True,Verified Leq,74.6,70,4.6,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-05,Day,96,96,100.0,True,Verified Leq,77.46,75,2.46,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-05,Night,48,48,100.0,True,Verified Leq,76.16,70,6.16,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-06,Day,96,96,100.0,True,Verified Leq,80.35,75,5.35,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-06,Night,48,48,100.0,True,Verified Leq,79.59,70,9.59,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-07,Day,96,96,100.0,True,Verified Leq,84.98,75,9.98,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-07,Night,48,48,100.0,True,Verified Leq,83.35,70,13.35,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-08,Day,96,96,100.0,True,Verified Leq,82.27,75,7.27,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-08,Night,48,48,100.0,True,Verified Leq,83.64,70,13.64,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-09,Day,96,96,100.0,True,Verified Leq,81.65,75,6.65,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-09,Night,48,48,100.0,True,Verified Leq,82.28,70,12.28,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-10,Day,96,96,100.0,True,Verified Leq,86.16,75,11.16,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-10,Night,48,48,100.0,True,Verified Leq,83.02,70,13.02,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-11,Day,96,96,100.0,True,Verified Leq,85.31,75,10.31,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-11,Night,48,48,100.0,True,Verified Leq,86.01,70,16.01,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-12,Day,96,96,100.0,True,Verified Leq,85.35,75,10.35,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-12,Night,48,48,100.0,True,Verified Leq,85.61,70,15.61,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-13,Day,96,96,100.0,True,Verified Leq,88.73,75,13.73,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-13,Night,48,48,100.0,True,Verified Leq,88.19,70,18.19,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-14,Day,96,96,100.0,True,Verified Leq,85.1,75,10.1,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-14,Night,48,48,100.0,True,Verified Leq,86.69,70,16.69,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-15,Day,96,96,100.0,True,Verified Leq,88.23,75,13.23,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-15,Night,48,48,100.0,True,Verified Leq,85.92,70,15.92,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-16,Day,96,96,100.0,True,Verified Leq,91.44,75,16.44,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-16,Night,48,48,100.0,True,Verified Leq,89.35,70,19.35,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-17,Day,96,96,100.0,True,Verified Leq,93.03,75,18.03,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-17,Night,48,48,100.0,True,Verified Leq,92.34,70,22.34,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-18,Day,96,96,100.0,True,Verified Leq,94.02,75,19.02,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-18,Night,48,48,100.0,True,Verified Leq,93.85,70,23.85,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-19,Day,96,96,100.0,True,Verified Leq,92.9,75,17.9,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-19,Night,48,48,100.0,True,Verified Leq,91.87,70,21.87,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-20,Day,96,96,100.0,True,Verified Leq,90.98,75,15.98,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-20,Night,48,48,100.0,True,Verified Leq,91.56,70,21.56,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-21,Day,96,96,100.0,True,Verified Leq,92.06,75,17.06,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-21,Night,48,48,100.0,True,Verified Leq,91.93,70,21.93,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-22,Day,96,96,100.0,True,Verified Leq,92.85,75,17.85,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-22,Night,48,48,100.0,True,Verified Leq,93.61,70,23.61,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-23,Day,95,96,99.0,True,Verified Leq,93.21,75,18.21,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-23,Night,47,48,97.9,True,Verified Leq,93.6,70,23.6,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-24,Day,96,96,100.0,True,Verified Leq,97.48,75,22.48,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-24,Night,48,48,100.0,True,Verified Leq,97.62,70,27.62,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-25,Day,96,96,100.0,True,Verified Leq,92.18,75,17.18,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-25,Night,48,48,100.0,True,Verified Leq,89.39,70,19.39,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-26,Day,96,96,100.0,True,Verified Leq,72.75,75,-2.25,False,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-26,Night,48,48,100.0,True,Verified Leq,64.12,70,-5.88,False,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-27,Day,96,96,100.0,True,Verified Leq,78.43,75,3.43,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-27,Night,48,48,100.0,True,Verified Leq,70.39,70,0.39,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-28,Day,96,96,100.0,True,Verified Leq,79.08,75,4.08,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-28,Night,48,48,100.0,True,Verified Leq,73.43,70,3.43,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-29,Day,96,96,100.0,True,Verified Leq,78.92,75,3.92,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-29,Night,48,48,100.0,True,Verified Leq,72.94,70,2.94,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-30,Day,96,96,100.0,True,Verified Leq,79.06,75,4.06,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-30,Night,48,48,100.0,True,Verified Leq,73.37,70,3.37,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-31,Day,96,96,100.0,True,Verified Leq,79.73,75,4.73,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-01-31,Night,48,48,100.0,True,Verified Leq,74.02,70,4.02,True,dBA
+267,Guindy Mount Salai,CHE04,Industrial Area,Industrial,2026-02-01,Night,1,48,2.1,False,Insufficient data (1/48 intervals),,70,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-01,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-01,Night,47,48,97.9,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-02,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-02,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-03,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-03,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-04,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-04,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-05,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-05,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-06,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-06,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-07,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-07,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-08,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-08,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-09,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-09,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-10,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-10,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-11,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-11,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-12,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-12,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-13,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-13,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-14,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-14,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-15,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-15,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-16,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-16,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-17,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-17,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-18,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-18,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-19,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-19,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-20,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-20,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-21,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-21,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-22,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-22,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-23,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-23,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-24,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-24,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-25,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-25,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-26,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-26,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-27,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-27,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-28,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-28,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-29,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-29,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-30,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-30,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-31,Day,96,96,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,55,,,dBA
+268,Triplicane / Ice House,CHE05,Residential Area,Residential,2025-05-31,Night,48,48,100.0,True,"Invalid (Raw export is LAF_ins/LAF_max only, no Leq)",,45,,,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-01,Day,96,96,100.0,True,Verified Leq,68.24,65,3.24,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-01,Night,48,48,100.0,True,Verified Leq,68.35,55,13.35,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-02,Day,96,96,100.0,True,Verified Leq,64.89,65,-0.11,False,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-02,Night,48,48,100.0,True,Verified Leq,67.0,55,12.0,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-03,Day,96,96,100.0,True,Verified Leq,65.39,65,0.39,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-03,Night,48,48,100.0,True,Verified Leq,64.99,55,9.99,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-04,Day,96,96,100.0,True,Verified Leq,65.09,65,0.09,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-04,Night,48,48,100.0,True,Verified Leq,65.96,55,10.96,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-05,Day,96,96,100.0,True,Verified Leq,62.01,65,-2.99,False,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-05,Night,48,48,100.0,True,Verified Leq,65.4,55,10.4,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-06,Day,96,96,100.0,True,Verified Leq,65.46,65,0.46,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-06,Night,48,48,100.0,True,Verified Leq,62.85,55,7.85,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-07,Day,96,96,100.0,True,Verified Leq,65.79,65,0.79,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-07,Night,48,48,100.0,True,Verified Leq,67.33,55,12.33,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-08,Day,96,96,100.0,True,Verified Leq,65.53,65,0.53,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-08,Night,48,48,100.0,True,Verified Leq,63.77,55,8.77,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-09,Day,96,96,100.0,True,Verified Leq,63.71,65,-1.29,False,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-09,Night,48,48,100.0,True,Verified Leq,64.18,55,9.18,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-10,Day,96,96,100.0,True,Verified Leq,63.52,65,-1.48,False,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-10,Night,48,48,100.0,True,Verified Leq,65.35,55,10.35,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-11,Day,96,96,100.0,True,Verified Leq,64.83,65,-0.17,False,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-11,Night,48,48,100.0,True,Verified Leq,68.8,55,13.8,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-12,Day,96,96,100.0,True,Verified Leq,65.34,65,0.34,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-12,Night,48,48,100.0,True,Verified Leq,65.54,55,10.54,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-13,Day,96,96,100.0,True,Verified Leq,64.39,65,-0.61,False,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-13,Night,48,48,100.0,True,Verified Leq,65.91,55,10.91,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-14,Day,96,96,100.0,True,Verified Leq,67.82,65,2.82,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-14,Night,48,48,100.0,True,Verified Leq,66.59,55,11.59,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-15,Day,96,96,100.0,True,Verified Leq,64.36,65,-0.64,False,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-15,Night,48,48,100.0,True,Verified Leq,64.1,55,9.1,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-16,Day,96,96,100.0,True,Verified Leq,61.86,65,-3.14,False,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-16,Night,48,48,100.0,True,Verified Leq,65.26,55,10.26,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-17,Day,96,96,100.0,True,Verified Leq,64.82,65,-0.18,False,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-17,Night,48,48,100.0,True,Verified Leq,63.85,55,8.85,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-18,Day,96,96,100.0,True,Verified Leq,62.79,65,-2.21,False,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-18,Night,48,48,100.0,True,Verified Leq,62.85,55,7.85,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-19,Day,96,96,100.0,True,Verified Leq,65.15,65,0.15,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-19,Night,48,48,100.0,True,Verified Leq,66.29,55,11.29,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-20,Day,96,96,100.0,True,Verified Leq,67.26,65,2.26,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-20,Night,48,48,100.0,True,Verified Leq,66.08,55,11.08,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-21,Day,96,96,100.0,True,Verified Leq,69.42,65,4.42,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-21,Night,48,48,100.0,True,Verified Leq,67.02,55,12.02,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-22,Day,96,96,100.0,True,Verified Leq,66.97,65,1.97,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-22,Night,48,48,100.0,True,Verified Leq,66.27,55,11.27,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-23,Day,96,96,100.0,True,Verified Leq,68.79,65,3.79,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-23,Night,48,48,100.0,True,Verified Leq,67.37,55,12.37,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-24,Day,96,96,100.0,True,Verified Leq,63.87,65,-1.13,False,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-24,Night,48,48,100.0,True,Verified Leq,65.18,55,10.18,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-25,Day,96,96,100.0,True,Verified Leq,65.1,65,0.1,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-25,Night,48,48,100.0,True,Verified Leq,69.54,55,14.54,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-26,Day,96,96,100.0,True,Verified Leq,75.22,65,10.22,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-26,Night,48,48,100.0,True,Verified Leq,80.85,55,25.85,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-27,Day,96,96,100.0,True,Verified Leq,80.87,65,15.87,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-27,Night,48,48,100.0,True,Verified Leq,79.76,55,24.76,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-28,Day,96,96,100.0,True,Verified Leq,76.43,65,11.43,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-28,Night,48,48,100.0,True,Verified Leq,74.73,55,19.73,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-29,Day,96,96,100.0,True,Verified Leq,75.81,65,10.81,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-29,Night,48,48,100.0,True,Verified Leq,73.86,55,18.86,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-30,Day,96,96,100.0,True,Verified Leq,76.73,65,11.73,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-30,Night,48,48,100.0,True,Verified Leq,72.72,55,17.72,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-31,Day,96,96,100.0,True,Verified Leq,76.15,65,11.15,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-01-31,Night,48,48,100.0,True,Verified Leq,75.54,55,20.54,True,dBA
+269,Pallikaranai Commercial Area,CHE06,Commercial Area,Commercial,2026-02-01,Night,1,48,2.1,False,Insufficient data (1/48 intervals),,55,,,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-01,Day,96,96,100.0,True,Verified Leq,102.56,55,47.56,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-01,Night,48,48,100.0,True,Verified Leq,84.1,45,39.1,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-02,Day,96,96,100.0,True,Verified Leq,91.16,55,36.16,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-02,Night,48,48,100.0,True,Verified Leq,87.26,45,42.26,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-03,Day,96,96,100.0,True,Verified Leq,107.24,55,52.24,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-03,Night,48,48,100.0,True,Verified Leq,98.09,45,53.09,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-04,Day,96,96,100.0,True,Verified Leq,70.62,55,15.62,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-04,Night,48,48,100.0,True,Verified Leq,68.25,45,23.25,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-05,Day,96,96,100.0,True,Verified Leq,73.73,55,18.73,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-05,Night,48,48,100.0,True,Verified Leq,75.23,45,30.23,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-06,Day,96,96,100.0,True,Verified Leq,81.26,55,26.26,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-06,Night,48,48,100.0,True,Verified Leq,86.34,45,41.34,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-07,Day,96,96,100.0,True,Verified Leq,84.31,55,29.31,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-07,Night,48,48,100.0,True,Verified Leq,86.81,45,41.81,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-08,Day,96,96,100.0,True,Verified Leq,84.1,55,29.1,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-08,Night,48,48,100.0,True,Verified Leq,86.73,45,41.73,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-09,Day,96,96,100.0,True,Verified Leq,86.95,55,31.95,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-09,Night,48,48,100.0,True,Verified Leq,86.79,45,41.79,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-10,Day,96,96,100.0,True,Verified Leq,86.23,55,31.23,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-10,Night,48,48,100.0,True,Verified Leq,86.48,45,41.48,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-11,Day,96,96,100.0,True,Verified Leq,86.26,55,31.26,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-11,Night,48,48,100.0,True,Verified Leq,86.16,45,41.16,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-12,Day,96,96,100.0,True,Verified Leq,85.45,55,30.45,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-12,Night,48,48,100.0,True,Verified Leq,86.38,45,41.38,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-13,Day,96,96,100.0,True,Verified Leq,73.71,55,18.71,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-13,Night,48,48,100.0,True,Verified Leq,83.88,45,38.88,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-14,Day,96,96,100.0,True,Verified Leq,77.2,55,22.2,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-14,Night,48,48,100.0,True,Verified Leq,71.09,45,26.09,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-15,Day,96,96,100.0,True,Verified Leq,79.3,55,24.3,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-15,Night,48,48,100.0,True,Verified Leq,82.22,45,37.22,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-16,Day,96,96,100.0,True,Verified Leq,74.21,55,19.21,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-16,Night,48,48,100.0,True,Verified Leq,74.64,45,29.64,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-17,Day,96,96,100.0,True,Verified Leq,79.54,55,24.54,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-17,Night,48,48,100.0,True,Verified Leq,81.52,45,36.52,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-18,Day,96,96,100.0,True,Verified Leq,81.05,55,26.05,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-18,Night,48,48,100.0,True,Verified Leq,80.43,45,35.43,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-19,Day,96,96,100.0,True,Verified Leq,80.5,55,25.5,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-19,Night,48,48,100.0,True,Verified Leq,80.27,45,35.27,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-20,Day,96,96,100.0,True,Verified Leq,83.73,55,28.73,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-20,Night,48,48,100.0,True,Verified Leq,85.13,45,40.13,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-21,Day,96,96,100.0,True,Verified Leq,83.7,55,28.7,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-21,Night,48,48,100.0,True,Verified Leq,86.38,45,41.38,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-22,Day,96,96,100.0,True,Verified Leq,81.72,55,26.72,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-22,Night,48,48,100.0,True,Verified Leq,86.47,45,41.47,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-23,Day,96,96,100.0,True,Verified Leq,84.4,55,29.4,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-23,Night,48,48,100.0,True,Verified Leq,85.61,45,40.61,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-24,Day,96,96,100.0,True,Verified Leq,86.89,55,31.89,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-24,Night,48,48,100.0,True,Verified Leq,87.12,45,42.12,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-25,Day,95,96,99.0,True,Verified Leq,99.54,55,44.54,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-25,Night,48,48,100.0,True,Verified Leq,99.42,45,54.42,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-26,Day,96,96,100.0,True,Verified Leq,88.36,55,33.36,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-26,Night,48,48,100.0,True,Verified Leq,105.14,45,60.14,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-27,Day,96,96,100.0,True,Verified Leq,86.53,55,31.53,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-27,Night,48,48,100.0,True,Verified Leq,88.42,45,43.42,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-28,Day,96,96,100.0,True,Verified Leq,85.08,55,30.08,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-28,Night,48,48,100.0,True,Verified Leq,82.47,45,37.47,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-29,Day,96,96,100.0,True,Verified Leq,80.01,55,25.01,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-29,Night,48,48,100.0,True,Verified Leq,83.27,45,38.27,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-30,Day,96,96,100.0,True,Verified Leq,82.65,55,27.65,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-30,Night,48,48,100.0,True,Verified Leq,85.74,45,40.74,True,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-31,Day,39,96,40.6,False,Insufficient data (39/96 intervals),,55,,,dBA
+270,Velachery Residential Area,CHE07,Residential Area,Residential,2026-01-31,Night,36,48,75.0,True,Verified Leq,86.35,45,41.35,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-01,Day,96,96,100.0,True,Verified Leq,83.57,65,18.57,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-01,Night,48,48,100.0,True,Verified Leq,69.4,55,14.4,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-02,Day,96,96,100.0,True,Verified Leq,82.31,65,17.31,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-02,Night,48,48,100.0,True,Verified Leq,80.31,55,25.31,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-03,Day,96,96,100.0,True,Verified Leq,88.58,65,23.58,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-03,Night,48,48,100.0,True,Verified Leq,90.67,55,35.67,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-04,Day,96,96,100.0,True,Verified Leq,82.95,65,17.95,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-04,Night,48,48,100.0,True,Verified Leq,83.35,55,28.35,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-05,Day,96,96,100.0,True,Verified Leq,84.13,65,19.13,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-05,Night,48,48,100.0,True,Verified Leq,82.97,55,27.97,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-06,Day,96,96,100.0,True,Verified Leq,87.67,65,22.67,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-06,Night,48,48,100.0,True,Verified Leq,84.07,55,29.07,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-07,Day,96,96,100.0,True,Verified Leq,83.84,65,18.84,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-07,Night,48,48,100.0,True,Verified Leq,79.56,55,24.56,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-08,Day,96,96,100.0,True,Verified Leq,88.4,65,23.4,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-08,Night,48,48,100.0,True,Verified Leq,78.43,55,23.43,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-09,Day,96,96,100.0,True,Verified Leq,88.99,65,23.99,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-09,Night,48,48,100.0,True,Verified Leq,88.35,55,33.35,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-10,Day,96,96,100.0,True,Verified Leq,89.21,65,24.21,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-10,Night,48,48,100.0,True,Verified Leq,85.86,55,30.86,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-11,Day,96,96,100.0,True,Verified Leq,89.64,65,24.64,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-11,Night,48,48,100.0,True,Verified Leq,88.6,55,33.6,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-12,Day,96,96,100.0,True,Verified Leq,78.62,65,13.62,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-12,Night,48,48,100.0,True,Verified Leq,77.37,55,22.37,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-13,Day,96,96,100.0,True,Verified Leq,57.77,65,-7.23,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-13,Night,48,48,100.0,True,Verified Leq,61.97,55,6.97,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-14,Day,96,96,100.0,True,Verified Leq,48.31,65,-16.69,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-14,Night,48,48,100.0,True,Verified Leq,47.85,55,-7.15,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-15,Day,96,96,100.0,True,Verified Leq,61.87,65,-3.13,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-15,Night,48,48,100.0,True,Verified Leq,61.84,55,6.84,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-16,Day,96,96,100.0,True,Verified Leq,77.92,65,12.92,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-16,Night,48,48,100.0,True,Verified Leq,74.04,55,19.04,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-17,Day,96,96,100.0,True,Verified Leq,67.48,65,2.48,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-17,Night,48,48,100.0,True,Verified Leq,67.91,55,12.91,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-18,Day,96,96,100.0,True,Verified Leq,65.14,65,0.14,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-18,Night,48,48,100.0,True,Verified Leq,64.2,55,9.2,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-19,Day,96,96,100.0,True,Verified Leq,49.48,65,-15.52,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-19,Night,48,48,100.0,True,Verified Leq,48.25,55,-6.75,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-20,Day,96,96,100.0,True,Verified Leq,67.01,65,2.01,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-20,Night,48,48,100.0,True,Verified Leq,50.14,55,-4.86,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-21,Day,96,96,100.0,True,Verified Leq,51.14,65,-13.86,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-21,Night,48,48,100.0,True,Verified Leq,69.28,55,14.28,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-22,Day,96,96,100.0,True,Verified Leq,52.02,65,-12.98,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-22,Night,48,48,100.0,True,Verified Leq,54.75,55,-0.25,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-23,Day,96,96,100.0,True,Verified Leq,49.43,65,-15.57,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-23,Night,48,48,100.0,True,Verified Leq,47.44,55,-7.56,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-24,Day,96,96,100.0,True,Verified Leq,51.85,65,-13.15,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-24,Night,48,48,100.0,True,Verified Leq,47.84,55,-7.16,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-25,Day,96,96,100.0,True,Verified Leq,50.45,65,-14.55,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-25,Night,48,48,100.0,True,Verified Leq,47.78,55,-7.22,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-26,Day,96,96,100.0,True,Verified Leq,51.04,65,-13.96,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-26,Night,48,48,100.0,True,Verified Leq,48.93,55,-6.07,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-27,Day,96,96,100.0,True,Verified Leq,49.4,65,-15.6,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-27,Night,48,48,100.0,True,Verified Leq,48.15,55,-6.85,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-28,Day,96,96,100.0,True,Verified Leq,53.03,65,-11.97,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-28,Night,48,48,100.0,True,Verified Leq,50.36,55,-4.64,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-29,Day,96,96,100.0,True,Verified Leq,66.35,65,1.35,True,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-29,Night,48,48,100.0,True,Verified Leq,52.4,55,-2.6,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-30,Day,96,96,100.0,True,Verified Leq,49.83,65,-15.17,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-30,Night,48,48,100.0,True,Verified Leq,52.94,55,-2.06,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-31,Day,96,96,100.0,True,Verified Leq,49.13,65,-15.87,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-01-31,Night,48,48,100.0,True,Verified Leq,47.77,55,-7.23,False,dBA
+271,Washermanpet Commercial Area,CHE08,Commercial Area,Commercial,2026-02-01,Night,1,48,2.1,False,Insufficient data (1/48 intervals),,55,,,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-12,Day,96,96,100.0,True,Verified Leq,66.95,50,16.95,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-12,Night,48,48,100.0,True,Verified Leq,64.87,40,24.87,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-13,Day,94,96,97.9,True,Verified Leq,85.01,50,35.01,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-13,Night,48,48,100.0,True,Verified Leq,74.06,40,34.06,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-14,Day,96,96,100.0,True,Verified Leq,101.92,50,51.92,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-14,Night,48,48,100.0,True,Verified Leq,79.75,40,39.75,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-15,Day,93,96,96.9,True,Verified Leq,106.64,50,56.64,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-15,Night,48,48,100.0,True,Verified Leq,87.32,40,47.32,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-16,Day,96,96,100.0,True,Verified Leq,89.85,50,39.85,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-16,Night,48,48,100.0,True,Verified Leq,99.39,40,59.39,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-17,Day,96,96,100.0,True,Verified Leq,94.14,50,44.14,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-17,Night,48,48,100.0,True,Verified Leq,81.71,40,41.71,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-18,Day,95,96,99.0,True,Verified Leq,102.79,50,52.79,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-18,Night,48,48,100.0,True,Verified Leq,65.85,40,25.85,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-19,Day,96,96,100.0,True,Verified Leq,101.9,50,51.9,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-19,Night,48,48,100.0,True,Verified Leq,61.21,40,21.21,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-20,Day,96,96,100.0,True,Verified Leq,100.99,50,50.99,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-20,Night,48,48,100.0,True,Verified Leq,61.63,40,21.63,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-21,Day,96,96,100.0,True,Verified Leq,89.74,50,39.74,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-21,Night,48,48,100.0,True,Verified Leq,60.7,40,20.7,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-22,Day,96,96,100.0,True,Verified Leq,95.15,50,45.15,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-22,Night,48,48,100.0,True,Verified Leq,61.34,40,21.34,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-23,Day,96,96,100.0,True,Verified Leq,73.45,50,23.45,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-23,Night,48,48,100.0,True,Verified Leq,65.61,40,25.61,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-24,Day,96,96,100.0,True,Verified Leq,60.26,50,10.26,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-24,Night,48,48,100.0,True,Verified Leq,70.74,40,30.74,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-25,Day,96,96,100.0,True,Verified Leq,59.81,50,9.81,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-25,Night,48,48,100.0,True,Verified Leq,60.56,40,20.56,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-26,Day,96,96,100.0,True,Verified Leq,61.65,50,11.65,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-26,Night,48,48,100.0,True,Verified Leq,58.86,40,18.86,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-27,Day,96,96,100.0,True,Verified Leq,60.93,50,10.93,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-27,Night,48,48,100.0,True,Verified Leq,60.92,40,20.92,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-28,Day,96,96,100.0,True,Verified Leq,67.49,50,17.49,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-28,Night,48,48,100.0,True,Verified Leq,61.91,40,21.91,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-29,Day,96,96,100.0,True,Verified Leq,73.5,50,23.5,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-29,Night,48,48,100.0,True,Verified Leq,60.28,40,20.28,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-30,Day,96,96,100.0,True,Verified Leq,80.54,50,30.54,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-30,Night,48,48,100.0,True,Verified Leq,58.89,40,18.89,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-31,Day,96,96,100.0,True,Verified Leq,70.31,50,20.31,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-01-31,Night,48,48,100.0,True,Verified Leq,57.2,40,17.2,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-01,Day,96,96,100.0,True,Verified Leq,69.52,50,19.52,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-01,Night,48,48,100.0,True,Verified Leq,58.84,40,18.84,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-02,Day,96,96,100.0,True,Verified Leq,69.67,50,19.67,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-02,Night,48,48,100.0,True,Verified Leq,61.61,40,21.61,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-03,Day,96,96,100.0,True,Verified Leq,87.7,50,37.7,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-03,Night,48,48,100.0,True,Verified Leq,57.14,40,17.14,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-04,Day,96,96,100.0,True,Verified Leq,71.21,50,21.21,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-04,Night,48,48,100.0,True,Verified Leq,57.63,40,17.63,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-05,Day,96,96,100.0,True,Verified Leq,81.6,50,31.6,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-05,Night,48,48,100.0,True,Verified Leq,69.04,40,29.04,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-06,Day,96,96,100.0,True,Verified Leq,86.26,50,36.26,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-06,Night,48,48,100.0,True,Verified Leq,66.83,40,26.83,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-07,Day,96,96,100.0,True,Verified Leq,90.34,50,40.34,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-07,Night,48,48,100.0,True,Verified Leq,96.84,40,56.84,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-08,Day,96,96,100.0,True,Verified Leq,106.16,50,56.16,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-08,Night,48,48,100.0,True,Verified Leq,62.71,40,22.71,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-09,Day,95,96,99.0,True,Verified Leq,101.87,50,51.87,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-09,Night,48,48,100.0,True,Verified Leq,69.0,40,29.0,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-10,Day,96,96,100.0,True,Verified Leq,93.9,50,43.9,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-10,Night,48,48,100.0,True,Verified Leq,69.89,40,29.89,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-11,Day,96,96,100.0,True,Verified Leq,89.84,50,39.84,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-11,Night,48,48,100.0,True,Verified Leq,59.24,40,19.24,True,dBA
+272,Anna Nagar Silence Zone,CHE09,Silence Zone,Silence,2026-02-12,Night,1,48,2.1,False,Insufficient data (1/48 intervals),,40,,,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-01,Day,96,96,100.0,True,Verified Leq,68.13,55,13.13,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-01,Night,47,48,97.9,True,Verified Leq,58.33,45,13.33,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-02,Day,96,96,100.0,True,Verified Leq,63.18,55,8.18,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-02,Night,48,48,100.0,True,Verified Leq,58.91,45,13.91,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-03,Day,96,96,100.0,True,Verified Leq,63.49,55,8.49,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-03,Night,48,48,100.0,True,Verified Leq,56.74,45,11.74,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-04,Day,96,96,100.0,True,Verified Leq,63.9,55,8.9,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-04,Night,48,48,100.0,True,Verified Leq,57.03,45,12.03,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-05,Day,96,96,100.0,True,Verified Leq,64.54,55,9.54,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-05,Night,48,48,100.0,True,Verified Leq,57.07,45,12.07,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-06,Day,96,96,100.0,True,Verified Leq,64.1,55,9.1,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-06,Night,48,48,100.0,True,Verified Leq,57.82,45,12.82,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-07,Day,96,96,100.0,True,Verified Leq,64.38,55,9.38,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-07,Night,48,48,100.0,True,Verified Leq,59.16,45,14.16,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-08,Day,96,96,100.0,True,Verified Leq,63.21,55,8.21,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-08,Night,48,48,100.0,True,Verified Leq,57.47,45,12.47,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-09,Day,96,96,100.0,True,Verified Leq,64.07,55,9.07,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-09,Night,48,48,100.0,True,Verified Leq,58.51,45,13.51,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-10,Day,96,96,100.0,True,Verified Leq,65.9,55,10.9,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-10,Night,48,48,100.0,True,Verified Leq,56.94,45,11.94,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-11,Day,96,96,100.0,True,Verified Leq,62.99,55,7.99,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-11,Night,48,48,100.0,True,Verified Leq,56.73,45,11.73,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-12,Day,96,96,100.0,True,Verified Leq,62.92,55,7.92,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-12,Night,48,48,100.0,True,Verified Leq,57.1,45,12.1,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-13,Day,96,96,100.0,True,Verified Leq,62.87,55,7.87,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-13,Night,48,48,100.0,True,Verified Leq,57.49,45,12.49,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-14,Day,96,96,100.0,True,Verified Leq,62.31,55,7.31,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-14,Night,48,48,100.0,True,Verified Leq,57.73,45,12.73,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-15,Day,96,96,100.0,True,Verified Leq,63.96,55,8.96,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-15,Night,48,48,100.0,True,Verified Leq,57.43,45,12.43,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-16,Day,96,96,100.0,True,Verified Leq,63.47,55,8.47,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-16,Night,48,48,100.0,True,Verified Leq,58.32,45,13.32,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-17,Day,96,96,100.0,True,Verified Leq,63.54,55,8.54,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-17,Night,48,48,100.0,True,Verified Leq,59.8,45,14.8,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-18,Day,96,96,100.0,True,Verified Leq,64.17,55,9.17,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-18,Night,48,48,100.0,True,Verified Leq,58.91,45,13.91,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-19,Day,96,96,100.0,True,Verified Leq,62.83,55,7.83,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-19,Night,48,48,100.0,True,Verified Leq,59.35,45,14.35,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-20,Day,96,96,100.0,True,Verified Leq,63.06,55,8.06,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-20,Night,48,48,100.0,True,Verified Leq,58.34,45,13.34,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-21,Day,96,96,100.0,True,Verified Leq,62.09,55,7.09,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-21,Night,48,48,100.0,True,Verified Leq,57.69,45,12.69,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-22,Day,96,96,100.0,True,Verified Leq,65.37,55,10.37,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-22,Night,48,48,100.0,True,Verified Leq,57.82,45,12.82,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-23,Day,96,96,100.0,True,Verified Leq,62.99,55,7.99,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-23,Night,48,48,100.0,True,Verified Leq,58.01,45,13.01,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-24,Day,96,96,100.0,True,Verified Leq,63.11,55,8.11,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-24,Night,48,48,100.0,True,Verified Leq,58.41,45,13.41,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-25,Day,96,96,100.0,True,Verified Leq,62.97,55,7.97,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-25,Night,48,48,100.0,True,Verified Leq,58.34,45,13.34,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-26,Day,96,96,100.0,True,Verified Leq,63.01,55,8.01,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-26,Night,48,48,100.0,True,Verified Leq,57.39,45,12.39,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-27,Day,96,96,100.0,True,Verified Leq,63.11,55,8.11,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-27,Night,48,48,100.0,True,Verified Leq,58.2,45,13.2,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-28,Day,96,96,100.0,True,Verified Leq,61.68,55,6.68,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-28,Night,48,48,100.0,True,Verified Leq,57.29,45,12.29,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-29,Day,96,96,100.0,True,Verified Leq,64.43,55,9.43,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-29,Night,48,48,100.0,True,Verified Leq,58.6,45,13.6,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-30,Day,96,96,100.0,True,Verified Leq,63.85,55,8.85,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-30,Night,48,48,100.0,True,Verified Leq,59.33,45,14.33,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-31,Day,96,96,100.0,True,Verified Leq,65.99,55,10.99,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-05-31,Night,48,48,100.0,True,Verified Leq,58.83,45,13.83,True,dBA
+273,Sowcarpet Residential Area,CHE10,Residential Area,Residential,2025-06-01,Night,1,48,2.1,False,Insufficient data (1/48 intervals),,45,,,dBA
