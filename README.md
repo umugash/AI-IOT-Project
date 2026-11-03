@@ -31,6 +31,14 @@ streamlit run app.py
 
 The app builds its database from the bundled CPCB exports on first launch. The trained sound classifier ships in `models/`, and the forecaster trains itself in about 5 seconds.
 
+### Deploy online (Streamlit Community Cloud, free)
+
+1. Go to <https://share.streamlit.io> and sign in with GitHub.
+2. **Create app** → *Deploy a public app from GitHub* → repository `umugash/AI-IOT-Project`, branch `rework/noisescope` (or `main` after merging), main file `app.py`.
+3. Under *Advanced settings* choose Python 3.12, then **Deploy**. The first build takes a few minutes.
+
+`packages.txt` installs the system libraries the app needs (OpenMP for LightGBM, ffmpeg for mp3/m4a uploads). On the hosted app, data added with **Poll CPCB now** or logged edge events last only until the app restarts.
+
 ### Live data from CPCB (run on your laptop)
 
 ```powershell
