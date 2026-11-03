@@ -3,22 +3,17 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "urbannoise-aiot"
-version = "0.1.0"
-description = "Software-only urban noise analysis and AIoT simulation"
+name = "noisescope"
+version = "1.0.0"
+description = "AIoT urban sound source classification and spatiotemporal noise hotspot prediction for Chennai"
 requires-python = ">=3.10"
 dependencies = [
-    "numpy>=1.26",
-    "pandas>=2.1",
-    "matplotlib>=3.8",
-    "scikit-learn>=1.4",
-    "torch>=2.2",
-    "librosa>=0.10.2",
-    "soundfile>=0.12",
-    "folium>=0.16",
-    "streamlit>=1.40",
-    "plotly>=5.24",
+    "numpy>=2.0", "pandas>=2.2", "scikit-learn>=1.5", "lightgbm>=4.3", "librosa>=0.10.2",
+    "soundfile>=0.12", "joblib>=1.3", "requests>=2.31", "streamlit>=1.50", "plotly>=5.24",
 ]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

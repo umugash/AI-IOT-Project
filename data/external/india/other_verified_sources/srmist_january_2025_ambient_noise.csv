@@ -1,3 +1,0 @@
-source_id,source_url,published_period,city,location,day_night,reported_noise_dba,stated_limit_dba,observation_timestamp,latitude,longitude,notes
-SRMIST-2025,https://webstor.srmist.edu.in/web_assets/downloads/2025/air-and-noise-monitoring.pdf,2025-01,Chennai,Near Tech Park Tower I,Day,48.3,55,,,,Ambient campus reference; exact observation time and coordinates not reported.
-SRMIST-2025,https://webstor.srmist.edu.in/web_assets/downloads/2025/air-and-noise-monitoring.pdf,2025-01,Chennai,Near Tech Park Tower I,Night,41.7,45,,,,Ambient campus reference; exact observation time and coordinates not reported.

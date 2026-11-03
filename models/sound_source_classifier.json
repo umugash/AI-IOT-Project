@@ -1,0 +1,181 @@
+{
+ "classes": [
+  "Animals",
+  "Bells & alarms",
+  "Construction & machinery",
+  "Emergency siren",
+  "Human activity",
+  "Nature & weather",
+  "Traffic & engines",
+  "Vehicle horn"
+ ],
+ "report": {
+  "accuracy": 0.8456896551724138,
+  "balanced_accuracy": 0.815625,
+  "macro_f1": 0.8332485271225618,
+  "fold_accuracy": [
+   0.8275862068965517,
+   0.8577586206896551,
+   0.8362068965517241,
+   0.8663793103448276,
+   0.8405172413793104
+  ],
+  "per_class": {
+   "Animals": {
+    "precision": 0.8464566929133859,
+    "recall": 0.8958333333333334,
+    "f1-score": 0.8704453441295547,
+    "support": 240.0
+   },
+   "Bells & alarms": {
+    "precision": 0.8831168831168831,
+    "recall": 0.85,
+    "f1-score": 0.8662420382165605,
+    "support": 80.0
+   },
+   "Construction & machinery": {
+    "precision": 0.9166666666666666,
+    "recall": 0.825,
+    "f1-score": 0.868421052631579,
+    "support": 120.0
+   },
+   "Emergency siren": {
+    "precision": 0.8918918918918919,
+    "recall": 0.825,
+    "f1-score": 0.8571428571428571,
+    "support": 40.0
+   },
+   "Human activity": {
+    "precision": 0.8393574297188755,
+    "recall": 0.8708333333333333,
+    "f1-score": 0.8548057259713702,
+    "support": 240.0
+   },
+   "Nature & weather": {
+    "precision": 0.8353909465020576,
+    "recall": 0.8458333333333333,
+    "f1-score": 0.8405797101449275,
+    "support": 240.0
+   },
+   "Traffic & engines": {
+    "precision": 0.7926829268292683,
+    "recall": 0.8125,
+    "f1-score": 0.8024691358024691,
+    "support": 160.0
+   },
+   "Vehicle horn": {
+    "precision": 0.8571428571428571,
+    "recall": 0.6,
+    "f1-score": 0.7058823529411765,
+    "support": 40.0
+   },
+   "accuracy": 0.8456896551724138,
+   "macro avg": {
+    "precision": 0.8578382868477358,
+    "recall": 0.815625,
+    "f1-score": 0.8332485271225618,
+    "support": 1160.0
+   },
+   "weighted avg": {
+    "precision": 0.8470079530135001,
+    "recall": 0.8456896551724138,
+    "f1-score": 0.8450218506585131,
+    "support": 1160.0
+   }
+  },
+  "confusion": [
+   [
+    215,
+    0,
+    0,
+    2,
+    20,
+    1,
+    1,
+    1
+   ],
+   [
+    3,
+    68,
+    0,
+    1,
+    1,
+    3,
+    2,
+    2
+   ],
+   [
+    1,
+    0,
+    99,
+    0,
+    7,
+    8,
+    5,
+    0
+   ],
+   [
+    3,
+    2,
+    1,
+    33,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    21,
+    0,
+    2,
+    0,
+    209,
+    6,
+    1,
+    1
+   ],
+   [
+    1,
+    5,
+    2,
+    1,
+    8,
+    203,
+    20,
+    0
+   ],
+   [
+    2,
+    0,
+    4,
+    0,
+    3,
+    21,
+    130,
+    0
+   ],
+   [
+    8,
+    2,
+    0,
+    0,
+    1,
+    1,
+    4,
+    24
+   ]
+  ],
+  "classes": [
+   "Animals",
+   "Bells & alarms",
+   "Construction & machinery",
+   "Emergency siren",
+   "Human activity",
+   "Nature & weather",
+   "Traffic & engines",
+   "Vehicle horn"
+  ],
+  "n_clips": 1160,
+  "augmented": true
+ }
+}
