@@ -183,7 +183,9 @@ def patterns() -> None:
 
     st.subheader("Station explorer")
     labels = {STATIONS[s].label: s for s in sorted(h["station_id"].unique())}
-    name = st.selectbox("Station", list(labels), index=list(labels).index(D.station_summary().iloc[0]["station"]))
+    summ = D.station_summary()
+    default = summ[summ["reliable"]].iloc[0]["station"] if summ["reliable"].any() else summ.iloc[0]["station"]
+    name = st.selectbox("Station", list(labels), index=list(labels).index(default))
     sid = labels[name]
     g = h[h["station_id"] == sid].sort_values("hour_start")
     st.caption(f"{STATIONS[sid].zone} zone · limits {STATIONS[sid].day_limit} dB day / {STATIONS[sid].night_limit} dB night · "
@@ -310,7 +312,8 @@ def forecast() -> None:
     with a:
         fig = px.line(ev["regression"], x="horizon_h", y="MAE_dB", color="method", markers=True, height=340,
                       labels={"horizon_h": "Hours ahead", "MAE_dB": "Mean absolute error (dB)", "method": ""},
-                      color_discrete_map={"NoiseScope LightGBM": "#d8343b"})
+                      color_discrete_map={"NoiseScope LightGBM": "#d8343b", "Persistence (last hour)": "#4c78a8",
+                                          "Same hour yesterday": "#f0a202", "Station hourly profile": "#9ca3af"})
         fig.update_layout(margin=dict(l=0, r=0, t=10, b=0), legend=dict(orientation="h", y=-0.25))
         st.plotly_chart(fig, width="stretch")
     with b:
